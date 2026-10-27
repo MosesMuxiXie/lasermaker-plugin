@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "project_id": "45d66e7dfb014032ab3d69a72e685222",
+  "name": "浅雕深雕与文字轮廓软件核验",
+  "revision": 1,
+  "design": {
+    "units": "mm",
+    "sheet_mm": [
+      100,
+      80
+    ],
+    "objects": [
+      {
+        "id": "outer",
+        "part_id": "P",
+        "role": "cut_outer",
+        "closed": true,
+        "points": [
+          [
+            5,
+            5
+          ],
+          [
+            65,
+            5
+          ],
+          [
+            65,
+            35
+          ],
+          [
+            5,
+            35
+          ]
+        ]
+      },
+      {
+        "id": "label-0",
+        "part_id": "P",
+        "role": "engrave",
+        "closed": true,
+        "d": "M 12.0,12.0 L 19.633187772925766,12.0 L 19.633187772925766,20.0 L 18.89956331877729,20.0 L 18.89956331877729,19.441048034934497 L 12.73362445414847,19.441048034934497 L 12.73362445414847,20.0 L 12.0,20.0 L 12.0,12.0 M 18.89956331877729,12.646288209606986 L 12.73362445414847,12.646288209606986 L 12.73362445414847,18.812227074235807 L 18.89956331877729,18.812227074235807 L 18.89956331877729,12.646288209606986 M 13.956331877729257,13.982532751091703 L 17.66812227074236,13.982532751091703 L 17.66812227074236,17.799126637554586 L 16.98689956331878,17.799126637554586 L 16.98689956331878,17.31004366812227 L 14.637554585152836,17.31004366812227 L 14.637554585152836,17.799126637554586 L 13.956331877729257,17.799126637554586 L 13.956331877729257,13.982532751091703 M 16.98689956331878,14.593886462882097 L 14.637554585152836,14.593886462882097 L 14.637554585152836,16.698689956331876 L 16.98689956331878,16.698689956331876 L 16.98689956331878,14.593886462882097"
+      },
+      {
+        "id": "label-1",
+        "part_id": "P",
+        "role": "engrave",
+        "closed": true,
+        "d": "M 20.716157205240172,15.611353711790393 Q 20.716157205240172,13.973799126637555 21.60262008733624,13.004366812227074 Q 22.48908296943231,12.034934497816593 24.004366812227076,12.034934497816593 Q 25.414847161572055,12.034934497816593 26.275109170305676,12.982532751091703 Q 27.135371179039296,13.93013100436681 27.135371179039296,15.449781659388645 Q 27.135371179039296,17.09606986899563 26.253275109170303,18.061135371179038 Q 25.37117903930131,19.026200873362445 23.895196506550214,19.026200873362445 Q 22.454148471615717,19.026200873362445 21.585152838427945,18.078602620087334 Q 20.716157205240172,17.131004366812228 20.716157205240172,15.611353711790393 M 21.633187772925766,15.541484716157203 Q 21.633187772925766,16.768558951965066 22.259825327510917,17.50873362445415 Q 22.88646288209607,18.24890829694323 23.895196506550214,18.24890829694323 Q 24.978165938864628,18.24890829694323 25.596069868995635,17.53930131004367 Q 26.213973799126634,16.829694323144103 26.213973799126634,15.554585152838428 Q 26.213973799126634,14.244541484716155 25.609170305676855,13.532751091703055 Q 25.00436681222707,12.820960698689955 23.95196506550218,12.820960698689955 Q 22.917030567685586,12.820960698689955 22.275109170305676,13.572052401746724 Q 21.63318777292576,14.323144104803493 21.633187772925766,15.541484716157203"
+      }
+    ]
+  },
+  "receipts": {
+    "engraving-text-v1": {
+      "digest": "b906ef6ef34b6e3a364f1c5d6646d2f79bdd4d8fed54108372053e181b95fe68",
+      "result": {
+        "project_id": "45d66e7dfb014032ab3d69a72e685222",
+        "revision": 1,
+        "object_count": 3,
+        "request_id": "engraving-text-v1"
+      }
+    }
+  },
+  "checkpoints": [],
+  "native": {
+    "path": "native\\45d66e7dfb014032ab3d69a72e685222-engrave-v2.lcpx",
+    "sha256": "232cde9ff048e93a362b0092afaccbf6d3b87e195734e4bb34da0e829fcbb691",
+    "revision": 1,
+    "design_digest": "549be800bccbd333c3f54d7238847059c9c33404e59e51d199b1e434bab541e1",
+    "source_scope": {
+      "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+      "roles": [
+        "cut_outer",
+        "engrave"
+      ],
+      "complete": true,
+      "bounds_mm": [
+        5.0,
+        5.0,
+        65.0,
+        35.0
+      ]
+    },
+    "verification": {
+      "path": "examples/engraving-modes/project/native/45d66e7dfb014032ab3d69a72e685222-engrave-v2.lcpx",
+      "sha256": "232cde9ff048e93a362b0092afaccbf6d3b87e195734e4bb34da0e829fcbb691",
+      "reopen_verified": true,
+      "document_name": "45d66e7dfb014032ab3d69a72e685222-engrave-v2.lcpx",
+      "position_mm": [
+        209.0,
+        134.0
+      ],
+      "selection_size_mm": [
+        60.0,
+        30.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          5.0,
+          5.0,
+          65.0,
+          35.0
+        ]
+      },
+      "layer_process_readbacks": {
+        "#0000ff": {
+          "mode": "engrave",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        "#000000": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        }
+      }
+    }
+  },
+  "created_at": 1793060276.428235,
+  "native_parameters_dirty": false,
+  "native_catalog": {
+    "native\\45d66e7dfb014032ab3d69a72e685222-shallow_engrave.lcpx": {
+      "revision": 1,
+      "design_digest": "549be800bccbd333c3f54d7238847059c9c33404e59e51d199b1e434bab541e1",
+      "sha256": "4138b52ae6fafbca60157c4390d3f1711eb4bf4e5953f1374dd9b4c958e76deb",
+      "source_scope": {
+        "roles": [
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          5.0,
+          5.0,
+          65.0,
+          35.0
+        ]
+      }
+    },
+    "native\\45d66e7dfb014032ab3d69a72e685222-engrave.lcpx": {
+      "revision": 1,
+      "design_digest": "549be800bccbd333c3f54d7238847059c9c33404e59e51d199b1e434bab541e1",
+      "sha256": "2289e6133897068cd2b3ad4246c6f996d793c7f624204eab26a603826f404d9f",
+      "source_scope": {
+        "roles": [
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          5.0,
+          5.0,
+          65.0,
+          35.0
+        ]
+      }
+    },
+    "native\\45d66e7dfb014032ab3d69a72e685222-shallow_engrave-v2.lcpx": {
+      "revision": 1,
+      "design_digest": "549be800bccbd333c3f54d7238847059c9c33404e59e51d199b1e434bab541e1",
+      "sha256": "188bf4d25c8c7dcf7fcd893b4da0d7086a8435a9334914942bd32d0900fc977d",
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          5.0,
+          5.0,
+          65.0,
+          35.0
+        ]
+      }
+    },
+    "native\\45d66e7dfb014032ab3d69a72e685222-engrave-v2.lcpx": {
+      "revision": 1,
+      "design_digest": "549be800bccbd333c3f54d7238847059c9c33404e59e51d199b1e434bab541e1",
+      "sha256": "232cde9ff048e93a362b0092afaccbf6d3b87e195734e4bb34da0e829fcbb691",
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          5.0,
+          5.0,
+          65.0,
+          35.0
+        ]
+      }
+    }
+  }
+}

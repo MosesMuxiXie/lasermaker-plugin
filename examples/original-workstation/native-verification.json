@@ -1,0 +1,2500 @@
+[
+  {
+    "sheet": "sheet-1",
+    "objects": 156,
+    "revision": 4,
+    "project_id": "a1259e9580a2419685f35ef490d6b999",
+    "design_digest": "d74e561e97b1628a33cbec6cd1f687688ba24cf9a459e9c3e14c61ff31f33b52",
+    "source_sha256": "130fb13353fdb4ef65a481b24a63f1a28f4f0f7037a7359fb956f3d902617e13",
+    "mcp_restart_resumed": true,
+    "import": {
+      "path": "examples/original-workstation/sheet-1/project/imports/a1259e9580a2419685f35ef490d6b999-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+      "document_name": "a1259e9580a2419685f35ef490d6b999-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+      "import_verified": true,
+      "position_mm": [
+        473.0,
+        305.0
+      ],
+      "selection_size_mm": [
+        588.0,
+        372.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "note": "Relative layout and size verified. Bed placement depends on the application's anchor/origin.",
+      "project_id": "a1259e9580a2419685f35ef490d6b999",
+      "revision": 4,
+      "request_id": "original-A1-native-import",
+      "manufacturing_ready": false
+    },
+    "reopened": {
+      "path": "examples/original-workstation/sheet-1/project/native/a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+      "sha256": "9d09172bcdb6bd591f75dbf4e60e51ced3b65f93de75ca2a48091bd1990ec825",
+      "reopen_verified": true,
+      "document_name": "a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+      "position_mm": [
+        473.0,
+        305.0
+      ],
+      "selection_size_mm": [
+        588.0,
+        372.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          6.0,
+          6.0,
+          594.0,
+          378.0
+        ]
+      },
+      "project_id": "a1259e9580a2419685f35ef490d6b999",
+      "revision": 4,
+      "request_id": "original-A1-native-reopen",
+      "manufacturing_ready": false
+    },
+    "process_readbacks": [
+      {
+        "color": "#000000",
+        "process_readback": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "process_verified": true,
+        "document_name": "a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+        "project_id": "a1259e9580a2419685f35ef490d6b999",
+        "revision": 4,
+        "request_id": "original-A1-native-verify-cut",
+        "manufacturing_ready": false
+      },
+      {
+        "color": "#0000ff",
+        "process_readback": {
+          "mode": "engrave",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        "process_verified": true,
+        "document_name": "a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+        "project_id": "a1259e9580a2419685f35ef490d6b999",
+        "revision": 4,
+        "request_id": "original-A1-native-verify-engrave",
+        "manufacturing_ready": false
+      }
+    ],
+    "view": {
+      "view_only": true,
+      "document_name": "a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+      "fit_control_clicked": true,
+      "fit_all_verified": false
+    },
+    "capture": {
+      "hwnd": 594116,
+      "method": "Windows.Graphics.Capture",
+      "path": "examples/original-workstation/sheet-1/project/evidence/reopened.png",
+      "blank_frames_skipped": 0,
+      "size": [
+        1920,
+        1140
+      ],
+      "screenshot": "examples/original-workstation/sheet-1/project/evidence/reopened.png",
+      "ocr": {
+        "available": true,
+        "text": "LaserMaker v2.1.7.2 üi+l -x-ag2 fi*.lcpx X ooo fi*.lcpx ooo 1685f35ef490d6b999-original, X mm 0/0 mm % 90.00 o o 0 100.0 10.0 15.0 15.0 02 03 04",
+        "lines": [
+          {
+            "text": "LaserMaker v2.1.7.2",
+            "words": [
+              {
+                "text": "LaserMaker",
+                "rectangle": [
+                  53.0,
+                  16.0,
+                  79.0,
+                  11.0
+                ]
+              },
+              {
+                "text": "v2.1.7.2",
+                "rectangle": [
+                  136.0,
+                  17.0,
+                  47.0,
+                  10.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "üi+l",
+            "words": [
+              {
+                "text": "üi+l",
+                "rectangle": [
+                  275.0,
+                  16.0,
+                  34.0,
+                  12.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "-x-ag2 fi*.lcpx",
+            "words": [
+              {
+                "text": "-x-ag2",
+                "rectangle": [
+                  458.0,
+                  15.0,
+                  50.0,
+                  13.0
+                ]
+              },
+              {
+                "text": "fi*.lcpx",
+                "rectangle": [
+                  515.0,
+                  16.0,
+                  60.0,
+                  14.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "X ooo",
+            "words": [
+              {
+                "text": "X",
+                "rectangle": [
+                  491.0,
+                  70.0,
+                  13.0,
+                  14.0
+                ]
+              },
+              {
+                "text": "ooo",
+                "rectangle": [
+                  514.0,
+                  72.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "fi*.lcpx",
+            "words": [
+              {
+                "text": "fi*.lcpx",
+                "rectangle": [
+                  739.0,
+                  16.0,
+                  60.0,
+                  14.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "ooo",
+            "words": [
+              {
+                "text": "ooo",
+                "rectangle": [
+                  742.0,
+                  107.0,
+                  32.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "1685f35ef490d6b999-original, X",
+            "words": [
+              {
+                "text": "1685f35ef490d6b999-original,",
+                "rectangle": [
+                  867.0,
+                  16.0,
+                  196.0,
+                  14.0
+                ]
+              },
+              {
+                "text": "X",
+                "rectangle": [
+                  1070.0,
+                  15.0,
+                  10.0,
+                  10.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm 0/0",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  815.0,
+                  74.0,
+                  28.0,
+                  9.0
+                ]
+              },
+              {
+                "text": "0/0",
+                "rectangle": [
+                  900.0,
+                  69.0,
+                  16.0,
+                  16.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm %",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  815.0,
+                  109.0,
+                  28.0,
+                  9.0
+                ]
+              },
+              {
+                "text": "%",
+                "rectangle": [
+                  900.0,
+                  104.0,
+                  16.0,
+                  16.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "90.00",
+            "words": [
+              {
+                "text": "90.00",
+                "rectangle": [
+                  941.0,
+                  109.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "o",
+            "words": [
+              {
+                "text": "o",
+                "rectangle": [
+                  1111.0,
+                  324.0,
+                  8.0,
+                  23.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "o",
+            "words": [
+              {
+                "text": "o",
+                "rectangle": [
+                  1224.0,
+                  324.0,
+                  8.0,
+                  23.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "0",
+            "words": [
+              {
+                "text": "0",
+                "rectangle": [
+                  13.0,
+                  408.0,
+                  29.0,
+                  21.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "100.0",
+            "words": [
+              {
+                "text": "100.0",
+                "rectangle": [
+                  1731.0,
+                  710.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "10.0",
+            "words": [
+              {
+                "text": "10.0",
+                "rectangle": [
+                  1735.0,
+                  754.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  710.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  753.0,
+                  31.0,
+                  13.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "02",
+            "words": [
+              {
+                "text": "02",
+                "rectangle": [
+                  62.0,
+                  1096.0,
+                  16.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "03",
+            "words": [
+              {
+                "text": "03",
+                "rectangle": [
+                  106.0,
+                  1096.0,
+                  16.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "04",
+            "words": [
+              {
+                "text": "04",
+                "rectangle": [
+                  150.0,
+                  1096.0,
+                  17.0,
+                  11.0
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "native_current": true,
+    "native_sha256": "9d09172bcdb6bd591f75dbf4e60e51ced3b65f93de75ca2a48091bd1990ec825",
+    "machine_validated": false,
+    "physical_fit_verified": false,
+    "process_parameters": "test readback only - not validated for any material or device"
+  },
+  {
+    "sheet": "sheet-2",
+    "objects": 213,
+    "revision": 6,
+    "project_id": "542b1350b2044e32bdc1ca60ca471a91",
+    "design_digest": "98444f6943cf746106d20cea8089fac9c496348e4eb0342f78544f15bb7a1cd2",
+    "source_sha256": "40653803f9ef353e8b42c52f6125b68311c67aa4fc1bf43f256f1b2372b259f7",
+    "mcp_restart_resumed": true,
+    "import": {
+      "path": "examples/original-workstation/sheet-2/project/imports/542b1350b2044e32bdc1ca60ca471a91-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+      "document_name": "542b1350b2044e32bdc1ca60ca471a91-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+      "import_verified": true,
+      "position_mm": [
+        464.5,
+        313.0
+      ],
+      "selection_size_mm": [
+        571.0,
+        388.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "note": "Relative layout and size verified. Bed placement depends on the application's anchor/origin.",
+      "project_id": "542b1350b2044e32bdc1ca60ca471a91",
+      "revision": 6,
+      "request_id": "original-A1-native-import",
+      "manufacturing_ready": false
+    },
+    "reopened": {
+      "path": "examples/original-workstation/sheet-2/project/native/542b1350b2044e32bdc1ca60ca471a91-original-workstation.lcpx",
+      "sha256": "22b59dbb456453fdb645ad62279092ac41fb1e073352bea163c01cea0ec76346",
+      "reopen_verified": true,
+      "document_name": "542b1350b2044e32bdc1ca60ca471a91-original-workstation.lcpx",
+      "position_mm": [
+        464.5,
+        313.0
+      ],
+      "selection_size_mm": [
+        571.0,
+        388.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          6.0,
+          6.0,
+          577.0,
+          394.0
+        ]
+      },
+      "project_id": "542b1350b2044e32bdc1ca60ca471a91",
+      "revision": 6,
+      "request_id": "original-A1-native-reopen",
+      "manufacturing_ready": false
+    },
+    "process_readbacks": [
+      {
+        "color": "#000000",
+        "process_readback": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "process_verified": true,
+        "document_name": "542b1350b2044e32bdc1ca60ca471a91-original-workstation.lcpx",
+        "project_id": "542b1350b2044e32bdc1ca60ca471a91",
+        "revision": 6,
+        "request_id": "original-A1-native-verify-cut",
+        "manufacturing_ready": false
+      },
+      {
+        "color": "#0000ff",
+        "process_readback": {
+          "mode": "engrave",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        "process_verified": true,
+        "document_name": "542b1350b2044e32bdc1ca60ca471a91-original-workstation.lcpx",
+        "project_id": "542b1350b2044e32bdc1ca60ca471a91",
+        "revision": 6,
+        "request_id": "original-A1-native-verify-engrave",
+        "manufacturing_ready": false
+      }
+    ],
+    "view": {
+      "view_only": true,
+      "document_name": "542b1350b2044e32bdc1ca60ca471a91-original-workstation.lcpx",
+      "fit_control_clicked": true,
+      "fit_all_verified": false
+    },
+    "capture": {
+      "hwnd": 594116,
+      "method": "Windows.Graphics.Capture",
+      "path": "examples/original-workstation/sheet-2/project/evidence/reopened.png",
+      "blank_frames_skipped": 0,
+      "size": [
+        1920,
+        1140
+      ],
+      "screenshot": "examples/original-workstation/sheet-2/project/evidence/reopened.png",
+      "ocr": {
+        "available": true,
+        "text": "LaserMaker v2.1.7.2 üi+l -x-ag2 fi*.lcpx X ooo fi*.lcpx ooo 2bdc1ca60ca471a91-original X mm 0/0 mm % 90.00 o o o o TOOL STATEN o o 0 100.0 10.0 15.0 15.0 02 03 04",
+        "lines": [
+          {
+            "text": "LaserMaker v2.1.7.2",
+            "words": [
+              {
+                "text": "LaserMaker",
+                "rectangle": [
+                  53.0,
+                  16.0,
+                  79.0,
+                  11.0
+                ]
+              },
+              {
+                "text": "v2.1.7.2",
+                "rectangle": [
+                  136.0,
+                  17.0,
+                  47.0,
+                  10.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "üi+l",
+            "words": [
+              {
+                "text": "üi+l",
+                "rectangle": [
+                  275.0,
+                  16.0,
+                  34.0,
+                  12.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "-x-ag2 fi*.lcpx",
+            "words": [
+              {
+                "text": "-x-ag2",
+                "rectangle": [
+                  458.0,
+                  15.0,
+                  50.0,
+                  13.0
+                ]
+              },
+              {
+                "text": "fi*.lcpx",
+                "rectangle": [
+                  515.0,
+                  16.0,
+                  60.0,
+                  14.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "X ooo",
+            "words": [
+              {
+                "text": "X",
+                "rectangle": [
+                  491.0,
+                  70.0,
+                  13.0,
+                  14.0
+                ]
+              },
+              {
+                "text": "ooo",
+                "rectangle": [
+                  514.0,
+                  72.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "fi*.lcpx",
+            "words": [
+              {
+                "text": "fi*.lcpx",
+                "rectangle": [
+                  739.0,
+                  16.0,
+                  60.0,
+                  14.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "ooo",
+            "words": [
+              {
+                "text": "ooo",
+                "rectangle": [
+                  742.0,
+                  107.0,
+                  32.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "2bdc1ca60ca471a91-original X",
+            "words": [
+              {
+                "text": "2bdc1ca60ca471a91-original",
+                "rectangle": [
+                  867.0,
+                  16.0,
+                  196.0,
+                  14.0
+                ]
+              },
+              {
+                "text": "X",
+                "rectangle": [
+                  1070.0,
+                  15.0,
+                  10.0,
+                  10.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm 0/0",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  815.0,
+                  74.0,
+                  28.0,
+                  9.0
+                ]
+              },
+              {
+                "text": "0/0",
+                "rectangle": [
+                  900.0,
+                  69.0,
+                  16.0,
+                  16.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm %",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  815.0,
+                  109.0,
+                  28.0,
+                  9.0
+                ]
+              },
+              {
+                "text": "%",
+                "rectangle": [
+                  900.0,
+                  104.0,
+                  16.0,
+                  16.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "90.00",
+            "words": [
+              {
+                "text": "90.00",
+                "rectangle": [
+                  941.0,
+                  109.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "o",
+            "words": [
+              {
+                "text": "o",
+                "rectangle": [
+                  403.0,
+                  299.0,
+                  8.0,
+                  21.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "o",
+            "words": [
+              {
+                "text": "o",
+                "rectangle": [
+                  403.0,
+                  362.0,
+                  8.0,
+                  20.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "o",
+            "words": [
+              {
+                "text": "o",
+                "rectangle": [
+                  434.0,
+                  299.0,
+                  8.0,
+                  21.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "o",
+            "words": [
+              {
+                "text": "o",
+                "rectangle": [
+                  434.0,
+                  362.0,
+                  8.0,
+                  20.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "TOOL STATEN",
+            "words": [
+              {
+                "text": "TOOL",
+                "rectangle": [
+                  427.0,
+                  397.0,
+                  26.0,
+                  8.0
+                ]
+              },
+              {
+                "text": "STATEN",
+                "rectangle": [
+                  455.0,
+                  397.0,
+                  39.0,
+                  8.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "o",
+            "words": [
+              {
+                "text": "o",
+                "rectangle": [
+                  528.0,
+                  362.0,
+                  8.0,
+                  20.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "o",
+            "words": [
+              {
+                "text": "o",
+                "rectangle": [
+                  559.0,
+                  362.0,
+                  8.0,
+                  20.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "0",
+            "words": [
+              {
+                "text": "0",
+                "rectangle": [
+                  13.0,
+                  408.0,
+                  29.0,
+                  21.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "100.0",
+            "words": [
+              {
+                "text": "100.0",
+                "rectangle": [
+                  1731.0,
+                  710.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "10.0",
+            "words": [
+              {
+                "text": "10.0",
+                "rectangle": [
+                  1735.0,
+                  754.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  710.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  753.0,
+                  31.0,
+                  13.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "02",
+            "words": [
+              {
+                "text": "02",
+                "rectangle": [
+                  62.0,
+                  1096.0,
+                  16.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "03",
+            "words": [
+              {
+                "text": "03",
+                "rectangle": [
+                  106.0,
+                  1096.0,
+                  16.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "04",
+            "words": [
+              {
+                "text": "04",
+                "rectangle": [
+                  150.0,
+                  1096.0,
+                  17.0,
+                  11.0
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "native_current": true,
+    "native_sha256": "22b59dbb456453fdb645ad62279092ac41fb1e073352bea163c01cea0ec76346",
+    "machine_validated": false,
+    "physical_fit_verified": false,
+    "process_parameters": "test readback only - not validated for any material or device"
+  },
+  {
+    "sheet": "sheet-3",
+    "objects": 102,
+    "revision": 3,
+    "project_id": "80b9ccb748574806ab7b8829425228ec",
+    "design_digest": "5371f068f2b7c2a5fb4d88b641893b50dd2a7cf9914175cb782d14656768bb94",
+    "source_sha256": "374c85edd3dddaff83a81d3b7089e32bbb28fd47603afd55acaa2f4e519df21b",
+    "mcp_restart_resumed": true,
+    "import": {
+      "path": "examples/original-workstation/sheet-3/project/imports/80b9ccb748574806ab7b8829425228ec-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+      "document_name": "80b9ccb748574806ab7b8829425228ec-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+      "import_verified": true,
+      "position_mm": [
+        466.0,
+        312.0
+      ],
+      "selection_size_mm": [
+        574.0,
+        386.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "note": "Relative layout and size verified. Bed placement depends on the application's anchor/origin.",
+      "project_id": "80b9ccb748574806ab7b8829425228ec",
+      "revision": 3,
+      "request_id": "original-A1-native-import",
+      "manufacturing_ready": false
+    },
+    "reopened": {
+      "path": "examples/original-workstation/sheet-3/project/native/80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+      "sha256": "727c293f9af843e505992274b9bf064abd1cc3f9e2838f82c84838c55cabcd98",
+      "reopen_verified": true,
+      "document_name": "80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+      "position_mm": [
+        466.0,
+        312.0
+      ],
+      "selection_size_mm": [
+        574.0,
+        386.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          6.0,
+          6.0,
+          580.0,
+          392.0
+        ]
+      },
+      "project_id": "80b9ccb748574806ab7b8829425228ec",
+      "revision": 3,
+      "request_id": "original-A1-native-reopen",
+      "manufacturing_ready": false
+    },
+    "process_readbacks": [
+      {
+        "color": "#000000",
+        "process_readback": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "process_verified": true,
+        "document_name": "80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+        "project_id": "80b9ccb748574806ab7b8829425228ec",
+        "revision": 3,
+        "request_id": "original-A1-native-verify-cut",
+        "manufacturing_ready": false
+      },
+      {
+        "color": "#0000ff",
+        "process_readback": {
+          "mode": "engrave",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        "process_verified": true,
+        "document_name": "80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+        "project_id": "80b9ccb748574806ab7b8829425228ec",
+        "revision": 3,
+        "request_id": "original-A1-native-verify-engrave",
+        "manufacturing_ready": false
+      }
+    ],
+    "view": {
+      "view_only": true,
+      "document_name": "80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+      "fit_control_clicked": true,
+      "fit_all_verified": false
+    },
+    "capture": {
+      "hwnd": 594116,
+      "method": "Windows.Graphics.Capture",
+      "path": "examples/original-workstation/sheet-3/project/evidence/reopened.png",
+      "blank_frames_skipped": 0,
+      "size": [
+        1920,
+        1140
+      ],
+      "screenshot": "examples/original-workstation/sheet-3/project/evidence/reopened.png",
+      "ocr": {
+        "available": true,
+        "text": "LaserMaker v2.1.7.2 üi+l -x-ag2 fi*.lcpx X ooo fi*.lcpx ooo sab7b8829425228ec-original X mm 0/0 mm % 90.00 0 100.0 10.0 15.0 15.0 02 03 04",
+        "lines": [
+          {
+            "text": "LaserMaker v2.1.7.2",
+            "words": [
+              {
+                "text": "LaserMaker",
+                "rectangle": [
+                  53.0,
+                  16.0,
+                  79.0,
+                  11.0
+                ]
+              },
+              {
+                "text": "v2.1.7.2",
+                "rectangle": [
+                  136.0,
+                  17.0,
+                  47.0,
+                  10.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "üi+l",
+            "words": [
+              {
+                "text": "üi+l",
+                "rectangle": [
+                  275.0,
+                  16.0,
+                  34.0,
+                  12.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "-x-ag2 fi*.lcpx",
+            "words": [
+              {
+                "text": "-x-ag2",
+                "rectangle": [
+                  458.0,
+                  15.0,
+                  50.0,
+                  13.0
+                ]
+              },
+              {
+                "text": "fi*.lcpx",
+                "rectangle": [
+                  515.0,
+                  16.0,
+                  60.0,
+                  14.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "X ooo",
+            "words": [
+              {
+                "text": "X",
+                "rectangle": [
+                  491.0,
+                  70.0,
+                  13.0,
+                  14.0
+                ]
+              },
+              {
+                "text": "ooo",
+                "rectangle": [
+                  514.0,
+                  72.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "fi*.lcpx",
+            "words": [
+              {
+                "text": "fi*.lcpx",
+                "rectangle": [
+                  739.0,
+                  16.0,
+                  60.0,
+                  14.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "ooo",
+            "words": [
+              {
+                "text": "ooo",
+                "rectangle": [
+                  742.0,
+                  107.0,
+                  32.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "sab7b8829425228ec-original X",
+            "words": [
+              {
+                "text": "sab7b8829425228ec-original",
+                "rectangle": [
+                  867.0,
+                  16.0,
+                  196.0,
+                  14.0
+                ]
+              },
+              {
+                "text": "X",
+                "rectangle": [
+                  1070.0,
+                  15.0,
+                  10.0,
+                  10.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm 0/0",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  815.0,
+                  74.0,
+                  28.0,
+                  9.0
+                ]
+              },
+              {
+                "text": "0/0",
+                "rectangle": [
+                  900.0,
+                  69.0,
+                  16.0,
+                  16.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm %",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  815.0,
+                  109.0,
+                  28.0,
+                  9.0
+                ]
+              },
+              {
+                "text": "%",
+                "rectangle": [
+                  900.0,
+                  104.0,
+                  16.0,
+                  16.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "90.00",
+            "words": [
+              {
+                "text": "90.00",
+                "rectangle": [
+                  941.0,
+                  109.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "0",
+            "words": [
+              {
+                "text": "0",
+                "rectangle": [
+                  13.0,
+                  408.0,
+                  29.0,
+                  21.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "100.0",
+            "words": [
+              {
+                "text": "100.0",
+                "rectangle": [
+                  1731.0,
+                  710.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "10.0",
+            "words": [
+              {
+                "text": "10.0",
+                "rectangle": [
+                  1735.0,
+                  754.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  710.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  753.0,
+                  31.0,
+                  13.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "02",
+            "words": [
+              {
+                "text": "02",
+                "rectangle": [
+                  62.0,
+                  1096.0,
+                  16.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "03",
+            "words": [
+              {
+                "text": "03",
+                "rectangle": [
+                  106.0,
+                  1096.0,
+                  16.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "04",
+            "words": [
+              {
+                "text": "04",
+                "rectangle": [
+                  150.0,
+                  1096.0,
+                  17.0,
+                  11.0
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "native_current": true,
+    "native_sha256": "727c293f9af843e505992274b9bf064abd1cc3f9e2838f82c84838c55cabcd98",
+    "machine_validated": false,
+    "physical_fit_verified": false,
+    "process_parameters": "test readback only - not validated for any material or device"
+  },
+  {
+    "sheet": "sheet-4",
+    "objects": 516,
+    "revision": 13,
+    "project_id": "717d69a2753f43eabecd2fd5da812d54",
+    "design_digest": "683e041c2b051db9a370cc763aae9f4dbe9d5679b3647355b9873e4916ec0411",
+    "source_sha256": "9544d258b5f14de00d4932e0d91224ffe0bda72877db92770e885a949eae7e17",
+    "mcp_restart_resumed": true,
+    "import": {
+      "path": "examples/original-workstation/sheet-4/project/imports/717d69a2753f43eabecd2fd5da812d54-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+      "document_name": "717d69a2753f43eabecd2fd5da812d54-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+      "import_verified": true,
+      "position_mm": [
+        464.0,
+        284.0
+      ],
+      "selection_size_mm": [
+        570.0,
+        330.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#ff0000",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "note": "Relative layout and size verified. Bed placement depends on the application's anchor/origin.",
+      "project_id": "717d69a2753f43eabecd2fd5da812d54",
+      "revision": 13,
+      "request_id": "original-A1-native-import",
+      "manufacturing_ready": false
+    },
+    "reopened": {
+      "path": "examples/original-workstation/sheet-4/project/native/717d69a2753f43eabecd2fd5da812d54-original-workstation.lcpx",
+      "sha256": "ddaaa97a61d984063e27a346303dff823e9c51ca173a226609425eee13a13152",
+      "reopen_verified": true,
+      "document_name": "717d69a2753f43eabecd2fd5da812d54-original-workstation.lcpx",
+      "position_mm": [
+        464.0,
+        284.0
+      ],
+      "selection_size_mm": [
+        570.0,
+        330.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#ff0000",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "engrave",
+          "score"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          6.0,
+          6.0,
+          576.0,
+          336.0
+        ]
+      },
+      "project_id": "717d69a2753f43eabecd2fd5da812d54",
+      "revision": 13,
+      "request_id": "original-A1-native-reopen",
+      "manufacturing_ready": false
+    },
+    "process_readbacks": [
+      {
+        "color": "#000000",
+        "process_readback": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "process_verified": true,
+        "document_name": "717d69a2753f43eabecd2fd5da812d54-original-workstation.lcpx",
+        "project_id": "717d69a2753f43eabecd2fd5da812d54",
+        "revision": 13,
+        "request_id": "original-A1-native-verify-cut",
+        "manufacturing_ready": false
+      },
+      {
+        "color": "#ff0000",
+        "process_readback": {
+          "mode": "score",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "process_verified": true,
+        "document_name": "717d69a2753f43eabecd2fd5da812d54-original-workstation.lcpx",
+        "project_id": "717d69a2753f43eabecd2fd5da812d54",
+        "revision": 13,
+        "request_id": "original-A1-native-verify-score",
+        "manufacturing_ready": false
+      },
+      {
+        "color": "#0000ff",
+        "process_readback": {
+          "mode": "engrave",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        "process_verified": true,
+        "document_name": "717d69a2753f43eabecd2fd5da812d54-original-workstation.lcpx",
+        "project_id": "717d69a2753f43eabecd2fd5da812d54",
+        "revision": 13,
+        "request_id": "original-A1-native-verify-engrave",
+        "manufacturing_ready": false
+      }
+    ],
+    "view": {
+      "view_only": true,
+      "document_name": "717d69a2753f43eabecd2fd5da812d54-original-workstation.lcpx",
+      "fit_control_clicked": true,
+      "fit_all_verified": false
+    },
+    "capture": {
+      "hwnd": 594116,
+      "method": "Windows.Graphics.Capture",
+      "path": "examples/original-workstation/sheet-4/project/evidence/reopened.png",
+      "blank_frames_skipped": 0,
+      "size": [
+        1920,
+        1140
+      ],
+      "screenshot": "examples/original-workstation/sheet-4/project/evidence/reopened.png",
+      "ocr": {
+        "available": true,
+        "text": "LaserMaker v2.1.7.2 üi+l -x-ag2 fi*.lcpx 464.00 284.00 mm mm fi*.lcpx 570.00 330.00 mm mm 14 100 % 90.00 0 100.0 100.0 10.0 15.0 15.0 15.0 02 03 04",
+        "lines": [
+          {
+            "text": "LaserMaker v2.1.7.2",
+            "words": [
+              {
+                "text": "LaserMaker",
+                "rectangle": [
+                  53.0,
+                  16.0,
+                  79.0,
+                  11.0
+                ]
+              },
+              {
+                "text": "v2.1.7.2",
+                "rectangle": [
+                  136.0,
+                  17.0,
+                  47.0,
+                  10.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "üi+l",
+            "words": [
+              {
+                "text": "üi+l",
+                "rectangle": [
+                  275.0,
+                  16.0,
+                  34.0,
+                  12.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "-x-ag2 fi*.lcpx",
+            "words": [
+              {
+                "text": "-x-ag2",
+                "rectangle": [
+                  458.0,
+                  15.0,
+                  50.0,
+                  13.0
+                ]
+              },
+              {
+                "text": "fi*.lcpx",
+                "rectangle": [
+                  515.0,
+                  16.0,
+                  60.0,
+                  14.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "464.00",
+            "words": [
+              {
+                "text": "464.00",
+                "rectangle": [
+                  513.0,
+                  72.0,
+                  50.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "284.00",
+            "words": [
+              {
+                "text": "284.00",
+                "rectangle": [
+                  514.0,
+                  106.0,
+                  49.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  585.0,
+                  74.0,
+                  28.0,
+                  9.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  585.0,
+                  108.0,
+                  28.0,
+                  9.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "fi*.lcpx",
+            "words": [
+              {
+                "text": "fi*.lcpx",
+                "rectangle": [
+                  739.0,
+                  16.0,
+                  60.0,
+                  14.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "570.00",
+            "words": [
+              {
+                "text": "570.00",
+                "rectangle": [
+                  743.0,
+                  72.0,
+                  49.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "330.00",
+            "words": [
+              {
+                "text": "330.00",
+                "rectangle": [
+                  743.0,
+                  107.0,
+                  49.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  815.0,
+                  74.0,
+                  28.0,
+                  9.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  815.0,
+                  109.0,
+                  28.0,
+                  9.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "14",
+            "words": [
+              {
+                "text": "14",
+                "rectangle": [
+                  830.0,
+                  456.0,
+                  11.0,
+                  10.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "100 %",
+            "words": [
+              {
+                "text": "100",
+                "rectangle": [
+                  856.0,
+                  107.0,
+                  26.0,
+                  11.0
+                ]
+              },
+              {
+                "text": "%",
+                "rectangle": [
+                  900.0,
+                  104.0,
+                  16.0,
+                  16.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "90.00",
+            "words": [
+              {
+                "text": "90.00",
+                "rectangle": [
+                  941.0,
+                  109.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "0",
+            "words": [
+              {
+                "text": "0",
+                "rectangle": [
+                  13.0,
+                  408.0,
+                  29.0,
+                  21.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "100.0",
+            "words": [
+              {
+                "text": "100.0",
+                "rectangle": [
+                  1731.0,
+                  710.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "100.0",
+            "words": [
+              {
+                "text": "100.0",
+                "rectangle": [
+                  1731.0,
+                  754.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "10.0",
+            "words": [
+              {
+                "text": "10.0",
+                "rectangle": [
+                  1735.0,
+                  798.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  710.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  754.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  798.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "02",
+            "words": [
+              {
+                "text": "02",
+                "rectangle": [
+                  62.0,
+                  1096.0,
+                  16.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "03",
+            "words": [
+              {
+                "text": "03",
+                "rectangle": [
+                  106.0,
+                  1096.0,
+                  16.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "04",
+            "words": [
+              {
+                "text": "04",
+                "rectangle": [
+                  150.0,
+                  1096.0,
+                  17.0,
+                  11.0
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "native_current": true,
+    "native_sha256": "ddaaa97a61d984063e27a346303dff823e9c51ca173a226609425eee13a13152",
+    "machine_validated": false,
+    "physical_fit_verified": false,
+    "process_parameters": "test readback only - not validated for any material or device"
+  },
+  {
+    "sheet": "fixtures",
+    "objects": 41,
+    "revision": 2,
+    "project_id": "fabbe7a6a1874cc9b48cfea6ca7c9b17",
+    "design_digest": "dd4122fcc5855239cd097ff1c400e92ca8b23b387b970310d72cec47d93ba882",
+    "source_sha256": "480afcba420a8f08ba110aaf42f1092826a41a631e1e8d4f083f81f1dd69c2db",
+    "mcp_restart_resumed": true,
+    "import": {
+      "path": "examples/original-workstation/fixtures/project/imports/fabbe7a6a1874cc9b48cfea6ca7c9b17-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+      "document_name": "fabbe7a6a1874cc9b48cfea6ca7c9b17-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+      "import_verified": true,
+      "position_mm": [
+        256.0,
+        196.0
+      ],
+      "selection_size_mm": [
+        154.0,
+        154.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#ff0000",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "note": "Relative layout and size verified. Bed placement depends on the application's anchor/origin.",
+      "project_id": "fabbe7a6a1874cc9b48cfea6ca7c9b17",
+      "revision": 2,
+      "request_id": "original-A1-native-import",
+      "manufacturing_ready": false
+    },
+    "reopened": {
+      "path": "examples/original-workstation/fixtures/project/native/fabbe7a6a1874cc9b48cfea6ca7c9b17-original-workstation.lcpx",
+      "sha256": "d90ed37e7457144b6770cdc0db65d2ae4b097d1f9122f2ada5ddc630a43a2bfd",
+      "reopen_verified": true,
+      "document_name": "fabbe7a6a1874cc9b48cfea6ca7c9b17-original-workstation.lcpx",
+      "position_mm": [
+        256.0,
+        196.0
+      ],
+      "selection_size_mm": [
+        154.0,
+        154.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#ff0000",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "score"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          6.0,
+          6.0,
+          160.0,
+          160.0
+        ]
+      },
+      "project_id": "fabbe7a6a1874cc9b48cfea6ca7c9b17",
+      "revision": 2,
+      "request_id": "original-A1-native-reopen",
+      "manufacturing_ready": false
+    },
+    "process_readbacks": [
+      {
+        "color": "#000000",
+        "process_readback": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "process_verified": true,
+        "document_name": "fabbe7a6a1874cc9b48cfea6ca7c9b17-original-workstation.lcpx",
+        "project_id": "fabbe7a6a1874cc9b48cfea6ca7c9b17",
+        "revision": 2,
+        "request_id": "original-A1-native-verify-cut",
+        "manufacturing_ready": false
+      },
+      {
+        "color": "#ff0000",
+        "process_readback": {
+          "mode": "score",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "process_verified": true,
+        "document_name": "fabbe7a6a1874cc9b48cfea6ca7c9b17-original-workstation.lcpx",
+        "project_id": "fabbe7a6a1874cc9b48cfea6ca7c9b17",
+        "revision": 2,
+        "request_id": "original-A1-native-verify-score",
+        "manufacturing_ready": false
+      }
+    ],
+    "view": {
+      "view_only": true,
+      "document_name": "fabbe7a6a1874cc9b48cfea6ca7c9b17-original-workstation.lcpx",
+      "fit_control_clicked": true,
+      "fit_all_verified": false
+    },
+    "capture": {
+      "hwnd": 594116,
+      "method": "Windows.Graphics.Capture",
+      "path": "examples/original-workstation/fixtures/project/evidence/reopened.png",
+      "blank_frames_skipped": 0,
+      "size": [
+        1920,
+        1140
+      ],
+      "screenshot": "examples/original-workstation/fixtures/project/evidence/reopened.png",
+      "ocr": {
+        "available": true,
+        "text": "LaserMaker v2.1.7.2 üi+l -x-ag2 fi*.lcpx X ooo fi*.lcpx ooo 9b48cfea6ca7c9b17-original, X mm 0/0 mm % 90.00 0 100.0 10.0 15.0 15.0 02 03 04",
+        "lines": [
+          {
+            "text": "LaserMaker v2.1.7.2",
+            "words": [
+              {
+                "text": "LaserMaker",
+                "rectangle": [
+                  53.0,
+                  16.0,
+                  79.0,
+                  11.0
+                ]
+              },
+              {
+                "text": "v2.1.7.2",
+                "rectangle": [
+                  136.0,
+                  17.0,
+                  47.0,
+                  10.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "üi+l",
+            "words": [
+              {
+                "text": "üi+l",
+                "rectangle": [
+                  275.0,
+                  16.0,
+                  34.0,
+                  12.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "-x-ag2 fi*.lcpx",
+            "words": [
+              {
+                "text": "-x-ag2",
+                "rectangle": [
+                  458.0,
+                  15.0,
+                  50.0,
+                  13.0
+                ]
+              },
+              {
+                "text": "fi*.lcpx",
+                "rectangle": [
+                  515.0,
+                  16.0,
+                  60.0,
+                  14.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "X ooo",
+            "words": [
+              {
+                "text": "X",
+                "rectangle": [
+                  491.0,
+                  70.0,
+                  13.0,
+                  14.0
+                ]
+              },
+              {
+                "text": "ooo",
+                "rectangle": [
+                  514.0,
+                  72.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "fi*.lcpx",
+            "words": [
+              {
+                "text": "fi*.lcpx",
+                "rectangle": [
+                  739.0,
+                  16.0,
+                  60.0,
+                  14.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "ooo",
+            "words": [
+              {
+                "text": "ooo",
+                "rectangle": [
+                  742.0,
+                  107.0,
+                  32.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "9b48cfea6ca7c9b17-original, X",
+            "words": [
+              {
+                "text": "9b48cfea6ca7c9b17-original,",
+                "rectangle": [
+                  868.0,
+                  16.0,
+                  195.0,
+                  14.0
+                ]
+              },
+              {
+                "text": "X",
+                "rectangle": [
+                  1070.0,
+                  15.0,
+                  10.0,
+                  10.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm 0/0",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  815.0,
+                  74.0,
+                  28.0,
+                  9.0
+                ]
+              },
+              {
+                "text": "0/0",
+                "rectangle": [
+                  900.0,
+                  69.0,
+                  16.0,
+                  16.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "mm %",
+            "words": [
+              {
+                "text": "mm",
+                "rectangle": [
+                  815.0,
+                  109.0,
+                  28.0,
+                  9.0
+                ]
+              },
+              {
+                "text": "%",
+                "rectangle": [
+                  900.0,
+                  104.0,
+                  16.0,
+                  16.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "90.00",
+            "words": [
+              {
+                "text": "90.00",
+                "rectangle": [
+                  941.0,
+                  109.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "0",
+            "words": [
+              {
+                "text": "0",
+                "rectangle": [
+                  13.0,
+                  408.0,
+                  29.0,
+                  21.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "100.0",
+            "words": [
+              {
+                "text": "100.0",
+                "rectangle": [
+                  1731.0,
+                  710.0,
+                  40.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "10.0",
+            "words": [
+              {
+                "text": "10.0",
+                "rectangle": [
+                  1735.0,
+                  754.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  710.0,
+                  31.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "15.0",
+            "words": [
+              {
+                "text": "15.0",
+                "rectangle": [
+                  1798.0,
+                  753.0,
+                  31.0,
+                  13.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "02",
+            "words": [
+              {
+                "text": "02",
+                "rectangle": [
+                  62.0,
+                  1096.0,
+                  16.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "03",
+            "words": [
+              {
+                "text": "03",
+                "rectangle": [
+                  106.0,
+                  1096.0,
+                  16.0,
+                  11.0
+                ]
+              }
+            ]
+          },
+          {
+            "text": "04",
+            "words": [
+              {
+                "text": "04",
+                "rectangle": [
+                  150.0,
+                  1096.0,
+                  17.0,
+                  11.0
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "native_current": true,
+    "native_sha256": "d90ed37e7457144b6770cdc0db65d2ae4b097d1f9122f2ada5ddc630a43a2bfd",
+    "machine_validated": false,
+    "physical_fit_verified": false,
+    "process_parameters": "test readback only - not validated for any material or device"
+  }
+]

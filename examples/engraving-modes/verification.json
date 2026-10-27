@@ -1,0 +1,492 @@
+{
+  "passed": true,
+  "outlined_text": "回O",
+  "font_file_bundled": false,
+  "size_mm": [
+    60,
+    30
+  ],
+  "capture": {
+    "hwnd": 330394,
+    "method": "Windows.Graphics.Capture",
+    "path": "examples/engraving-modes/project/evidence/engraving-reopened-v2.png",
+    "blank_frames_skipped": 0,
+    "size": [
+      1920,
+      1140
+    ],
+    "screenshot": "examples/engraving-modes/project/evidence/engraving-reopened-v2.png",
+    "ocr": {
+      "available": true,
+      "text": "14032ab3d69ane685222-eru X X ooo ooo mm 0/0 mm % 90.00 0 o o 100.0 10.0 15.0 15.0 02 03 04",
+      "lines": [
+        {
+          "text": "14032ab3d69ane685222-eru X",
+          "words": [
+            {
+              "text": "14032ab3d69ane685222-eru",
+              "rectangle": [
+                195.0,
+                16.0,
+                196.0,
+                11.0
+              ]
+            },
+            {
+              "text": "X",
+              "rectangle": [
+                398.0,
+                15.0,
+                10.0,
+                10.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "X ooo",
+          "words": [
+            {
+              "text": "X",
+              "rectangle": [
+                491.0,
+                70.0,
+                13.0,
+                14.0
+              ]
+            },
+            {
+              "text": "ooo",
+              "rectangle": [
+                514.0,
+                72.0,
+                31.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ooo",
+          "words": [
+            {
+              "text": "ooo",
+              "rectangle": [
+                742.0,
+                107.0,
+                32.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "mm 0/0",
+          "words": [
+            {
+              "text": "mm",
+              "rectangle": [
+                815.0,
+                74.0,
+                28.0,
+                9.0
+              ]
+            },
+            {
+              "text": "0/0",
+              "rectangle": [
+                900.0,
+                69.0,
+                16.0,
+                16.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "mm %",
+          "words": [
+            {
+              "text": "mm",
+              "rectangle": [
+                815.0,
+                109.0,
+                28.0,
+                9.0
+              ]
+            },
+            {
+              "text": "%",
+              "rectangle": [
+                900.0,
+                104.0,
+                16.0,
+                16.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "90.00",
+          "words": [
+            {
+              "text": "90.00",
+              "rectangle": [
+                941.0,
+                109.0,
+                40.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "0",
+          "words": [
+            {
+              "text": "0",
+              "rectangle": [
+                13.0,
+                408.0,
+                29.0,
+                21.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "o",
+          "words": [
+            {
+              "text": "o",
+              "rectangle": [
+                14.0,
+                463.0,
+                27.0,
+                25.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "o",
+          "words": [
+            {
+              "text": "o",
+              "rectangle": [
+                14.0,
+                576.0,
+                27.0,
+                27.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "100.0",
+          "words": [
+            {
+              "text": "100.0",
+              "rectangle": [
+                1731.0,
+                709.0,
+                40.0,
+                13.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10.0",
+          "words": [
+            {
+              "text": "10.0",
+              "rectangle": [
+                1735.0,
+                754.0,
+                31.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "15.0",
+          "words": [
+            {
+              "text": "15.0",
+              "rectangle": [
+                1798.0,
+                709.0,
+                31.0,
+                13.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "15.0",
+          "words": [
+            {
+              "text": "15.0",
+              "rectangle": [
+                1798.0,
+                754.0,
+                31.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "02",
+          "words": [
+            {
+              "text": "02",
+              "rectangle": [
+                62.0,
+                1096.0,
+                16.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "03",
+          "words": [
+            {
+              "text": "03",
+              "rectangle": [
+                106.0,
+                1096.0,
+                16.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "04",
+          "words": [
+            {
+              "text": "04",
+              "rectangle": [
+                150.0,
+                1096.0,
+                17.0,
+                11.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "shallow_and_deep_are_separate_passes": true,
+  "manufacturing_ready": false,
+  "results": [
+    {
+      "mode": "shallow_engrave",
+      "saved": {
+        "path": "examples/engraving-modes/project/native/45d66e7dfb014032ab3d69a72e685222-shallow_engrave-v2.lcpx",
+        "sha256": "188bf4d25c8c7dcf7fcd893b4da0d7086a8435a9334914942bd32d0900fc977d",
+        "save_verified": true,
+        "reopen_verified": false,
+        "document_name": "45d66e7dfb014032ab3d69a72e685222-shallow_engrave-v2.lcpx",
+        "layers": [
+          {
+            "color": "#0000ff",
+            "speed_mm_s": 100.0,
+            "power_max_percent": 15.0
+          },
+          {
+            "color": "#000000",
+            "speed_mm_s": 10.0,
+            "power_max_percent": 15.0
+          }
+        ],
+        "source_scope": {
+          "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+          "roles": [
+            "cut_outer",
+            "engrave"
+          ],
+          "complete": true,
+          "bounds_mm": [
+            5.0,
+            5.0,
+            65.0,
+            35.0
+          ]
+        },
+        "project_id": "45d66e7dfb014032ab3d69a72e685222",
+        "revision": 1,
+        "request_id": "engraving-final-v2-shallow_engrave-save",
+        "manufacturing_ready": false
+      },
+      "reopened": {
+        "path": "examples/engraving-modes/project/native/45d66e7dfb014032ab3d69a72e685222-shallow_engrave-v2.lcpx",
+        "sha256": "188bf4d25c8c7dcf7fcd893b4da0d7086a8435a9334914942bd32d0900fc977d",
+        "reopen_verified": true,
+        "document_name": "45d66e7dfb014032ab3d69a72e685222-shallow_engrave-v2.lcpx",
+        "position_mm": [
+          209.0,
+          134.0
+        ],
+        "selection_size_mm": [
+          60.0,
+          30.0
+        ],
+        "position_anchor": "application_current_anchor",
+        "layers": [
+          {
+            "color": "#0000ff",
+            "speed_mm_s": 100.0,
+            "power_max_percent": 15.0
+          },
+          {
+            "color": "#000000",
+            "speed_mm_s": 10.0,
+            "power_max_percent": 15.0
+          }
+        ],
+        "process_order_verified": false,
+        "simulation_verified": false,
+        "source_scope": {
+          "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+          "roles": [
+            "cut_outer",
+            "engrave"
+          ],
+          "complete": true,
+          "bounds_mm": [
+            5.0,
+            5.0,
+            65.0,
+            35.0
+          ]
+        },
+        "project_id": "45d66e7dfb014032ab3d69a72e685222",
+        "revision": 1,
+        "request_id": "engraving-final-v2-shallow_engrave-open",
+        "manufacturing_ready": false
+      },
+      "verified": {
+        "color": "#0000ff",
+        "process_readback": {
+          "mode": "shallow_engrave",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        "process_verified": true,
+        "document_name": "45d66e7dfb014032ab3d69a72e685222-shallow_engrave-v2.lcpx",
+        "project_id": "45d66e7dfb014032ab3d69a72e685222",
+        "revision": 1,
+        "request_id": "engraving-final-v2-shallow_engrave-verify",
+        "manufacturing_ready": false
+      }
+    },
+    {
+      "mode": "engrave",
+      "saved": {
+        "path": "examples/engraving-modes/project/native/45d66e7dfb014032ab3d69a72e685222-engrave-v2.lcpx",
+        "sha256": "232cde9ff048e93a362b0092afaccbf6d3b87e195734e4bb34da0e829fcbb691",
+        "save_verified": true,
+        "reopen_verified": false,
+        "document_name": "45d66e7dfb014032ab3d69a72e685222-engrave-v2.lcpx",
+        "layers": [
+          {
+            "color": "#0000ff",
+            "speed_mm_s": 100.0,
+            "power_max_percent": 15.0
+          },
+          {
+            "color": "#000000",
+            "speed_mm_s": 10.0,
+            "power_max_percent": 15.0
+          }
+        ],
+        "source_scope": {
+          "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+          "roles": [
+            "cut_outer",
+            "engrave"
+          ],
+          "complete": true,
+          "bounds_mm": [
+            5.0,
+            5.0,
+            65.0,
+            35.0
+          ]
+        },
+        "project_id": "45d66e7dfb014032ab3d69a72e685222",
+        "revision": 1,
+        "request_id": "engraving-final-v2-engrave-save",
+        "manufacturing_ready": false
+      },
+      "reopened": {
+        "path": "examples/engraving-modes/project/native/45d66e7dfb014032ab3d69a72e685222-engrave-v2.lcpx",
+        "sha256": "232cde9ff048e93a362b0092afaccbf6d3b87e195734e4bb34da0e829fcbb691",
+        "reopen_verified": true,
+        "document_name": "45d66e7dfb014032ab3d69a72e685222-engrave-v2.lcpx",
+        "position_mm": [
+          209.0,
+          134.0
+        ],
+        "selection_size_mm": [
+          60.0,
+          30.0
+        ],
+        "position_anchor": "application_current_anchor",
+        "layers": [
+          {
+            "color": "#0000ff",
+            "speed_mm_s": 100.0,
+            "power_max_percent": 15.0
+          },
+          {
+            "color": "#000000",
+            "speed_mm_s": 10.0,
+            "power_max_percent": 15.0
+          }
+        ],
+        "process_order_verified": false,
+        "simulation_verified": false,
+        "source_scope": {
+          "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+          "roles": [
+            "cut_outer",
+            "engrave"
+          ],
+          "complete": true,
+          "bounds_mm": [
+            5.0,
+            5.0,
+            65.0,
+            35.0
+          ]
+        },
+        "project_id": "45d66e7dfb014032ab3d69a72e685222",
+        "revision": 1,
+        "request_id": "engraving-final-v2-engrave-open",
+        "manufacturing_ready": false
+      },
+      "verified": {
+        "color": "#0000ff",
+        "process_readback": {
+          "mode": "engrave",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        "process_verified": true,
+        "document_name": "45d66e7dfb014032ab3d69a72e685222-engrave-v2.lcpx",
+        "project_id": "45d66e7dfb014032ab3d69a72e685222",
+        "revision": 1,
+        "request_id": "engraving-final-v2-engrave-verify",
+        "manufacturing_ready": false
+      }
+    }
+  ]
+}

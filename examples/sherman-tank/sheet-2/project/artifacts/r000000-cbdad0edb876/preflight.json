@@ -1,0 +1,25 @@
+{
+  "geometry_passed": true,
+  "manufacturing_ready": false,
+  "bounds_mm": [
+    5.0,
+    5.0,
+    276.0,
+    228.0
+  ],
+  "object_count": 88,
+  "part_count": 31,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "KERF_UNMEASURED"
+    },
+    {
+      "code": "PHYSICAL_FIT_UNVERIFIED"
+    },
+    {
+      "code": "MACHINE_AND_PROCESS_REQUIRE_ON_SITE_VALIDATION"
+    }
+  ],
+  "geometry_tolerance_mm": 0.01
+}

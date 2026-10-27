@@ -1,0 +1,9 @@
+* text=auto eol=lf
+# Frozen design and manufacturing evidence must survive a Windows checkout.
+examples/** -text
+tests/fixtures/** -text
+licenses/** -text
+*.lcpx binary
+*.pdf binary
+*.png binary
+*.stl binary

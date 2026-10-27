@@ -1,0 +1,481 @@
+{
+  "sheet": "sheet-1",
+  "objects": 156,
+  "revision": 4,
+  "project_id": "a1259e9580a2419685f35ef490d6b999",
+  "design_digest": "d74e561e97b1628a33cbec6cd1f687688ba24cf9a459e9c3e14c61ff31f33b52",
+  "source_sha256": "130fb13353fdb4ef65a481b24a63f1a28f4f0f7037a7359fb956f3d902617e13",
+  "mcp_restart_resumed": true,
+  "import": {
+    "path": "examples/original-workstation/sheet-1/project/imports/a1259e9580a2419685f35ef490d6b999-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+    "document_name": "a1259e9580a2419685f35ef490d6b999-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+    "import_verified": true,
+    "position_mm": [
+      473.0,
+      305.0
+    ],
+    "selection_size_mm": [
+      588.0,
+      372.0
+    ],
+    "position_anchor": "application_current_anchor",
+    "layers": [
+      {
+        "color": "#0000ff",
+        "speed_mm_s": 100.0,
+        "power_max_percent": 15.0
+      },
+      {
+        "color": "#000000",
+        "speed_mm_s": 10.0,
+        "power_max_percent": 15.0
+      }
+    ],
+    "note": "Relative layout and size verified. Bed placement depends on the application's anchor/origin.",
+    "project_id": "a1259e9580a2419685f35ef490d6b999",
+    "revision": 4,
+    "request_id": "original-A1-native-import",
+    "manufacturing_ready": false
+  },
+  "reopened": {
+    "path": "examples/original-workstation/sheet-1/project/native/a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+    "sha256": "9d09172bcdb6bd591f75dbf4e60e51ced3b65f93de75ca2a48091bd1990ec825",
+    "reopen_verified": true,
+    "document_name": "a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+    "position_mm": [
+      473.0,
+      305.0
+    ],
+    "selection_size_mm": [
+      588.0,
+      372.0
+    ],
+    "position_anchor": "application_current_anchor",
+    "layers": [
+      {
+        "color": "#0000ff",
+        "speed_mm_s": 100.0,
+        "power_max_percent": 15.0
+      },
+      {
+        "color": "#000000",
+        "speed_mm_s": 10.0,
+        "power_max_percent": 15.0
+      }
+    ],
+    "process_order_verified": false,
+    "simulation_verified": false,
+    "source_scope": {
+      "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+      "roles": [
+        "cut_inner",
+        "cut_outer",
+        "engrave"
+      ],
+      "complete": true,
+      "bounds_mm": [
+        6.0,
+        6.0,
+        594.0,
+        378.0
+      ]
+    },
+    "project_id": "a1259e9580a2419685f35ef490d6b999",
+    "revision": 4,
+    "request_id": "original-A1-native-reopen",
+    "manufacturing_ready": false
+  },
+  "process_readbacks": [
+    {
+      "color": "#000000",
+      "process_readback": {
+        "mode": "cut",
+        "speed_mm_s": 10.0,
+        "power_max_percent": 15.0,
+        "power_min_percent": 13.0
+      },
+      "process_verified": true,
+      "document_name": "a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+      "project_id": "a1259e9580a2419685f35ef490d6b999",
+      "revision": 4,
+      "request_id": "original-A1-native-verify-cut",
+      "manufacturing_ready": false
+    },
+    {
+      "color": "#0000ff",
+      "process_readback": {
+        "mode": "engrave",
+        "speed_mm_s": 100.0,
+        "power_max_percent": 15.0
+      },
+      "process_verified": true,
+      "document_name": "a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+      "project_id": "a1259e9580a2419685f35ef490d6b999",
+      "revision": 4,
+      "request_id": "original-A1-native-verify-engrave",
+      "manufacturing_ready": false
+    }
+  ],
+  "view": {
+    "view_only": true,
+    "document_name": "a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+    "fit_control_clicked": true,
+    "fit_all_verified": false
+  },
+  "capture": {
+    "hwnd": 594116,
+    "method": "Windows.Graphics.Capture",
+    "path": "examples/original-workstation/sheet-1/project/evidence/reopened.png",
+    "blank_frames_skipped": 0,
+    "size": [
+      1920,
+      1140
+    ],
+    "screenshot": "examples/original-workstation/sheet-1/project/evidence/reopened.png",
+    "ocr": {
+      "available": true,
+      "text": "LaserMaker v2.1.7.2 üi+l -x-ag2 fi*.lcpx X ooo fi*.lcpx ooo 1685f35ef490d6b999-original, X mm 0/0 mm % 90.00 o o 0 100.0 10.0 15.0 15.0 02 03 04",
+      "lines": [
+        {
+          "text": "LaserMaker v2.1.7.2",
+          "words": [
+            {
+              "text": "LaserMaker",
+              "rectangle": [
+                53.0,
+                16.0,
+                79.0,
+                11.0
+              ]
+            },
+            {
+              "text": "v2.1.7.2",
+              "rectangle": [
+                136.0,
+                17.0,
+                47.0,
+                10.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "üi+l",
+          "words": [
+            {
+              "text": "üi+l",
+              "rectangle": [
+                275.0,
+                16.0,
+                34.0,
+                12.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "-x-ag2 fi*.lcpx",
+          "words": [
+            {
+              "text": "-x-ag2",
+              "rectangle": [
+                458.0,
+                15.0,
+                50.0,
+                13.0
+              ]
+            },
+            {
+              "text": "fi*.lcpx",
+              "rectangle": [
+                515.0,
+                16.0,
+                60.0,
+                14.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "X ooo",
+          "words": [
+            {
+              "text": "X",
+              "rectangle": [
+                491.0,
+                70.0,
+                13.0,
+                14.0
+              ]
+            },
+            {
+              "text": "ooo",
+              "rectangle": [
+                514.0,
+                72.0,
+                31.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fi*.lcpx",
+          "words": [
+            {
+              "text": "fi*.lcpx",
+              "rectangle": [
+                739.0,
+                16.0,
+                60.0,
+                14.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ooo",
+          "words": [
+            {
+              "text": "ooo",
+              "rectangle": [
+                742.0,
+                107.0,
+                32.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1685f35ef490d6b999-original, X",
+          "words": [
+            {
+              "text": "1685f35ef490d6b999-original,",
+              "rectangle": [
+                867.0,
+                16.0,
+                196.0,
+                14.0
+              ]
+            },
+            {
+              "text": "X",
+              "rectangle": [
+                1070.0,
+                15.0,
+                10.0,
+                10.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "mm 0/0",
+          "words": [
+            {
+              "text": "mm",
+              "rectangle": [
+                815.0,
+                74.0,
+                28.0,
+                9.0
+              ]
+            },
+            {
+              "text": "0/0",
+              "rectangle": [
+                900.0,
+                69.0,
+                16.0,
+                16.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "mm %",
+          "words": [
+            {
+              "text": "mm",
+              "rectangle": [
+                815.0,
+                109.0,
+                28.0,
+                9.0
+              ]
+            },
+            {
+              "text": "%",
+              "rectangle": [
+                900.0,
+                104.0,
+                16.0,
+                16.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "90.00",
+          "words": [
+            {
+              "text": "90.00",
+              "rectangle": [
+                941.0,
+                109.0,
+                40.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "o",
+          "words": [
+            {
+              "text": "o",
+              "rectangle": [
+                1111.0,
+                324.0,
+                8.0,
+                23.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "o",
+          "words": [
+            {
+              "text": "o",
+              "rectangle": [
+                1224.0,
+                324.0,
+                8.0,
+                23.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "0",
+          "words": [
+            {
+              "text": "0",
+              "rectangle": [
+                13.0,
+                408.0,
+                29.0,
+                21.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "100.0",
+          "words": [
+            {
+              "text": "100.0",
+              "rectangle": [
+                1731.0,
+                710.0,
+                40.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10.0",
+          "words": [
+            {
+              "text": "10.0",
+              "rectangle": [
+                1735.0,
+                754.0,
+                31.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "15.0",
+          "words": [
+            {
+              "text": "15.0",
+              "rectangle": [
+                1798.0,
+                710.0,
+                31.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "15.0",
+          "words": [
+            {
+              "text": "15.0",
+              "rectangle": [
+                1798.0,
+                753.0,
+                31.0,
+                13.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "02",
+          "words": [
+            {
+              "text": "02",
+              "rectangle": [
+                62.0,
+                1096.0,
+                16.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "03",
+          "words": [
+            {
+              "text": "03",
+              "rectangle": [
+                106.0,
+                1096.0,
+                16.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "04",
+          "words": [
+            {
+              "text": "04",
+              "rectangle": [
+                150.0,
+                1096.0,
+                17.0,
+                11.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "native_current": true,
+  "native_sha256": "9d09172bcdb6bd591f75dbf4e60e51ced3b65f93de75ca2a48091bd1990ec825",
+  "machine_validated": false,
+  "physical_fit_verified": false,
+  "process_parameters": "test readback only - not validated for any material or device"
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: lasermaker-agent
+      name: dsh-plugin-lasermaker

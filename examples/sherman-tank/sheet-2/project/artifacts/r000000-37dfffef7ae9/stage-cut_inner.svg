@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280mm" height="230mm" viewBox="0 0 1058.26771654 869.29133858">
+<desc>1:1 millimetres; LaserMaker2.1.7.2 profile; process parameters require material testing.</desc>
+<g id="score" fill="none" stroke="#ff0000" stroke-width="0.37795276">
+</g>
+<g id="engrave" fill="none" stroke="#0000ff" stroke-width="0.37795276">
+</g>
+<g id="cut_inner" fill="none" stroke="#000000" stroke-width="0.37795276">
+<path id="R01-pivot" d="M 124.34645669291339,480.00000000000006 A 11.716535433070872,11.716535433070872 0.0 1,0 147.77952755905514,480.00000000000006 A 11.716535433070872,11.716535433070872 0.0 1,0 124.34645669291339,480.00000000000006 Z"/>
+<path id="R02-pivot" d="M 383.24409448818903,478.1102362204725 A 11.716535433070868,11.716535433070868 0.0 1,0 406.6771653543307,478.1102362204725 A 11.716535433070868,11.716535433070868 0.0 1,0 383.24409448818903,478.1102362204725 Z"/>
+</g>
+<g id="cut_outer" fill="none" stroke="#000000" stroke-width="0.37795276">
+</g>
+</svg>

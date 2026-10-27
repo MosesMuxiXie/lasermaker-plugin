@@ -1,0 +1,41 @@
+{
+  "project_id": "0c6f582db2e44efeb16de9a71f164a24",
+  "revision": 0,
+  "artifacts": {
+    "svg": "design.svg",
+    "dxf": "design.dxf",
+    "source": "design.json",
+    "preflight": "preflight.json",
+    "score": "stage-score.svg",
+    "engrave": "stage-engrave.svg",
+    "cut_inner": "stage-cut_inner.svg",
+    "cut_outer": "stage-cut_outer.svg"
+  },
+  "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+  "native_current": false,
+  "native_evidence": null,
+  "process_settings_verified": false,
+  "geometry_passed": true,
+  "manufacturing_ready": false,
+  "required_on_site": [
+    "machine/bed/controller",
+    "material thickness and slot fit",
+    "speed/power test",
+    "inner-before-outer execution"
+  ],
+  "process_order": [
+    "score/engrave",
+    "cut_inner",
+    "cut_outer"
+  ],
+  "sha256": {
+    "svg": "3562cc725b6e363a05e126337c1df19957cc2b4bf9d384399fb56650ecf0ae31",
+    "dxf": "6fe048a1e3cd4a646e1e676a9974e217868a159c3bb05564897601b0ea1fddd8",
+    "source": "c32d3819f5ec034e877b9e16076e241f511cbf4c90146a9c24dd60981fd4f977",
+    "preflight": "556f38070c671c40e240f433bc6c546e7913acabf2df2b5560526b76865b83f6",
+    "score": "403bed8298cc4a3fa68a58ac1c39b1168b1dab07eeffdcd204966f5fbca97028",
+    "engrave": "ef28e0847a8afbf3e58b6e677fb1196f8239a0e1511d59c7dd40dbe0f6954dc8",
+    "cut_inner": "04cee912e63684e308b7932da0e9ba60705b40ca7b01db71b612a95a71c256c6",
+    "cut_outer": "8c5cbcd16282e8e6aba478ae934d9c661053ff90559b57b12deb769201e029c5"
+  }
+}

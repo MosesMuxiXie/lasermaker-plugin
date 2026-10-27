@@ -1,0 +1,114 @@
+{
+  "project_id": "45d66e7dfb014032ab3d69a72e685222",
+  "revision": 1,
+  "artifacts": {
+    "svg": "design.svg",
+    "dxf": "design.dxf",
+    "source": "design.json",
+    "preflight": "preflight.json",
+    "score": "stage-score.svg",
+    "engrave": "stage-engrave.svg",
+    "cut_inner": "stage-cut_inner.svg",
+    "cut_outer": "stage-cut_outer.svg"
+  },
+  "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+  "native_current": false,
+  "native_evidence": {
+    "path": "native\\45d66e7dfb014032ab3d69a72e685222-engrave.lcpx",
+    "sha256": "2289e6133897068cd2b3ad4246c6f996d793c7f624204eab26a603826f404d9f",
+    "revision": 1,
+    "design_digest": "549be800bccbd333c3f54d7238847059c9c33404e59e51d199b1e434bab541e1",
+    "source_scope": {
+      "roles": [
+        "cut_outer",
+        "engrave"
+      ],
+      "complete": true,
+      "bounds_mm": [
+        5.0,
+        5.0,
+        65.0,
+        35.0
+      ]
+    },
+    "verification": {
+      "path": "examples/engraving-modes/project/native/45d66e7dfb014032ab3d69a72e685222-engrave.lcpx",
+      "sha256": "2289e6133897068cd2b3ad4246c6f996d793c7f624204eab26a603826f404d9f",
+      "reopen_verified": true,
+      "document_name": "45d66e7dfb014032ab3d69a72e685222-engrave.lcpx",
+      "position_mm": [
+        209.0,
+        134.0
+      ],
+      "selection_size_mm": [
+        60.0,
+        30.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "roles": [
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          5.0,
+          5.0,
+          65.0,
+          35.0
+        ]
+      },
+      "layer_process_readbacks": {
+        "#0000ff": {
+          "mode": "engrave",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        "#000000": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        }
+      }
+    }
+  },
+  "process_settings_verified": false,
+  "geometry_passed": true,
+  "manufacturing_ready": false,
+  "required_on_site": [
+    "machine/bed/controller",
+    "material thickness and slot fit",
+    "speed/power test",
+    "inner-before-outer execution"
+  ],
+  "process_order": [
+    "score/engrave",
+    "cut_inner",
+    "cut_outer"
+  ],
+  "sha256": {
+    "svg": "c98c8bbc8489ab59bdc4f531640f615aeb4458529d19981668ce90afb661169f",
+    "dxf": "305c26e69735e5e0e760f49f96291b7ed22498a3483ea30d50ade4f968f069f5",
+    "source": "2255dc7b8697f492f3c311ffc1d476a25549be05beb369b5f03b87a2444ca173",
+    "preflight": "a4854e15d8e35e9eb0cdab59d3932ff087dbb768c432e146cd4c2e93b0f18609",
+    "score": "8202f6760a2c1c38a28308f92289828fe8df18013d1754a6e46b9a6c87129255",
+    "engrave": "1a7206b0db4e0475cd1087da71c911ea4c62f765abea97ff8060624b3eec3a14",
+    "cut_inner": "8202f6760a2c1c38a28308f92289828fe8df18013d1754a6e46b9a6c87129255",
+    "cut_outer": "0ca484f8413d748eaf8a1ff883ea9fdbd6fb0723354eef39108c1a3f4545815b"
+  }
+}

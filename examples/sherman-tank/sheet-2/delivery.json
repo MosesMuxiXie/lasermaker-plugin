@@ -1,0 +1,122 @@
+{
+  "project_id": "0c6f582db2e44efeb16de9a71f164a24",
+  "revision": 0,
+  "artifacts": {
+    "svg": "project/artifacts/r000000-cbdad0edb876/design.svg",
+    "dxf": "project/artifacts/r000000-cbdad0edb876/design.dxf",
+    "source": "project/artifacts/r000000-cbdad0edb876/design.json",
+    "preflight": "project/artifacts/r000000-cbdad0edb876/preflight.json",
+    "score": "project/artifacts/r000000-cbdad0edb876/stage-score.svg",
+    "engrave": "project/artifacts/r000000-cbdad0edb876/stage-engrave.svg",
+    "cut_inner": "project/artifacts/r000000-cbdad0edb876/stage-cut_inner.svg",
+    "cut_outer": "project/artifacts/r000000-cbdad0edb876/stage-cut_outer.svg",
+    "native": "project/artifacts/r000000-cbdad0edb876/design.lcpx",
+    "stage_registration": "stage-registration.json"
+  },
+  "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+  "native_current": true,
+  "native_evidence": {
+    "path": "native\\0c6f582db2e44efeb16de9a71f164a24-product-v2.lcpx",
+    "sha256": "d62a6ff56d8961bd0a2b90a76500db09a40de4debb55da20ab4e029749c66d6c",
+    "revision": 0,
+    "design_digest": "a53d2968d97a0663fb3c0e5af704b9bbf92fdaed1baad407e178dd557303cc54",
+    "source_scope": {
+      "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+      "roles": [
+        "cut_inner",
+        "cut_outer",
+        "score"
+      ],
+      "complete": true,
+      "bounds_mm": [
+        5.0,
+        5.0,
+        276.0,
+        228.0
+      ]
+    },
+    "verification": {
+      "path": "examples/sherman-tank/sheet-2/project/native/0c6f582db2e44efeb16de9a71f164a24-product-v2.lcpx",
+      "sha256": "d62a6ff56d8961bd0a2b90a76500db09a40de4debb55da20ab4e029749c66d6c",
+      "reopen_verified": true,
+      "document_name": "0c6f582db2e44efeb16de9a71f164a24-product-v2.lcpx",
+      "position_mm": [
+        315.5,
+        230.5
+      ],
+      "selection_size_mm": [
+        270.99,
+        223.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#ff0000",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "score"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          5.0,
+          5.0,
+          276.0,
+          228.0
+        ]
+      },
+      "layer_process_readbacks": {
+        "#ff0000": {
+          "mode": "score",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "#000000": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        }
+      }
+    }
+  },
+  "process_settings_verified": true,
+  "geometry_passed": true,
+  "manufacturing_ready": false,
+  "required_on_site": [
+    "machine/bed/controller",
+    "material thickness and slot fit",
+    "speed/power test",
+    "inner-before-outer execution"
+  ],
+  "process_order": [
+    "score/engrave",
+    "cut_inner",
+    "cut_outer"
+  ],
+  "sha256": {
+    "svg": "3562cc725b6e363a05e126337c1df19957cc2b4bf9d384399fb56650ecf0ae31",
+    "dxf": "3c3ad8ee0966759a411a19a15a357a1b242f75a8f50de97b6d08bb85cca634d8",
+    "source": "c32d3819f5ec034e877b9e16076e241f511cbf4c90146a9c24dd60981fd4f977",
+    "preflight": "556f38070c671c40e240f433bc6c546e7913acabf2df2b5560526b76865b83f6",
+    "score": "403bed8298cc4a3fa68a58ac1c39b1168b1dab07eeffdcd204966f5fbca97028",
+    "engrave": "ef28e0847a8afbf3e58b6e677fb1196f8239a0e1511d59c7dd40dbe0f6954dc8",
+    "cut_inner": "04cee912e63684e308b7932da0e9ba60705b40ca7b01db71b612a95a71c256c6",
+    "cut_outer": "8c5cbcd16282e8e6aba478ae934d9c661053ff90559b57b12deb769201e029c5",
+    "native": "d62a6ff56d8961bd0a2b90a76500db09a40de4debb55da20ab4e029749c66d6c"
+  }
+}

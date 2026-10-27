@@ -1,0 +1,8 @@
+{
+  "parts": 39,
+  "positive_volume_intersections": [],
+  "all_signed_mesh_volumes_positive": true,
+  "intersection_threshold_mm3": 1e-06,
+  "physical_fit_verified": false,
+  "coverage": "Axis-aligned wood plates only; source curve approximation; contacts allowed; dowel excluded."
+}

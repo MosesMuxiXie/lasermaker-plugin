@@ -1,0 +1,30 @@
+{
+  "product_parts": [
+    "C01",
+    "B00"
+  ],
+  "coverage": [
+    "transforms",
+    "node",
+    "array-align-distribute",
+    "offset",
+    "boolean-difference",
+    "restore"
+  ],
+  "roundtrip_error_mm": 1.3237368160807534e-09,
+  "arc_roundtrip_error_mm": 1.4210854715202004e-14,
+  "final_revision": 6,
+  "idempotent_every_batch": true,
+  "exact_source_restored": true,
+  "new_mcp_process_resumed": true,
+  "checkpoint": {
+    "id": "a436ebe0b27840b39db5a78ead39fb61",
+    "label": "真实产品副本变换、节点、复制阵列、对齐分布、偏移、布尔后准确恢复",
+    "revision": 6,
+    "time": 1793081170.6025136,
+    "path": "checkpoints/a436ebe0b27840b39db5a78ead39fb61.json"
+  },
+  "native_product_modified": false,
+  "numeric_roundtrip_threshold_mm": 1e-07,
+  "test_history": "Initial 1e-9 mm guard detected 1.324e-9 mm floating-point drift; bounded to 1e-7 mm, then explicit exact source restoration."
+}

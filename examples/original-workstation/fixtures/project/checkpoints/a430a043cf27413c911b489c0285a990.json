@@ -1,0 +1,911 @@
+{
+  "schema_version": 1,
+  "project_id": "fabbe7a6a1874cc9b48cfea6ca7c9b17",
+  "name": "原创工具站-fixtures",
+  "revision": 2,
+  "design": {
+    "units": "mm",
+    "sheet_mm": [
+      180,
+      170
+    ],
+    "minimum_web_mm": 2.99,
+    "material": {
+      "thickness_mm": 3,
+      "kerf_mm": null,
+      "fit_validated": false
+    },
+    "objects": [
+      {
+        "id": "F01-outer",
+        "part_id": "F01",
+        "role": "cut_outer",
+        "closed": true,
+        "points": [
+          [
+            6,
+            6
+          ],
+          [
+            160,
+            6
+          ],
+          [
+            160,
+            44
+          ],
+          [
+            6,
+            44
+          ]
+        ]
+      },
+      {
+        "id": "F01-fit-0",
+        "part_id": "F01",
+        "role": "cut_inner",
+        "closed": true,
+        "points": [
+          [
+            15,
+            12
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            18,
+            28
+          ],
+          [
+            15,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-0-0",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            15.0,
+            33
+          ],
+          [
+            15.0,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-fit-1",
+        "part_id": "F01",
+        "role": "cut_inner",
+        "closed": true,
+        "points": [
+          [
+            35,
+            12
+          ],
+          [
+            38.05,
+            12
+          ],
+          [
+            38.05,
+            28
+          ],
+          [
+            35,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-1-0",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            35.0,
+            33
+          ],
+          [
+            35.0,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-1-1",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            35.55,
+            33
+          ],
+          [
+            35.55,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-fit-2",
+        "part_id": "F01",
+        "role": "cut_inner",
+        "closed": true,
+        "points": [
+          [
+            55,
+            12
+          ],
+          [
+            58.1,
+            12
+          ],
+          [
+            58.1,
+            28
+          ],
+          [
+            55,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-2-0",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            55.0,
+            33
+          ],
+          [
+            55.0,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-2-1",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            55.55,
+            33
+          ],
+          [
+            55.55,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-2-2",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            56.1,
+            33
+          ],
+          [
+            56.1,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-fit-3",
+        "part_id": "F01",
+        "role": "cut_inner",
+        "closed": true,
+        "points": [
+          [
+            75,
+            12
+          ],
+          [
+            78.15,
+            12
+          ],
+          [
+            78.15,
+            28
+          ],
+          [
+            75,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-3-0",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            75.0,
+            33
+          ],
+          [
+            75.0,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-3-1",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            75.55,
+            33
+          ],
+          [
+            75.55,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-3-2",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            76.1,
+            33
+          ],
+          [
+            76.1,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-3-3",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            76.65,
+            33
+          ],
+          [
+            76.65,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-fit-4",
+        "part_id": "F01",
+        "role": "cut_inner",
+        "closed": true,
+        "points": [
+          [
+            95,
+            12
+          ],
+          [
+            98.2,
+            12
+          ],
+          [
+            98.2,
+            28
+          ],
+          [
+            95,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-4-0",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            95.0,
+            33
+          ],
+          [
+            95.0,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-4-1",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            95.55,
+            33
+          ],
+          [
+            95.55,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-4-2",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            96.1,
+            33
+          ],
+          [
+            96.1,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-4-3",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            96.65,
+            33
+          ],
+          [
+            96.65,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-4-4",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            97.2,
+            33
+          ],
+          [
+            97.2,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-fit-5",
+        "part_id": "F01",
+        "role": "cut_inner",
+        "closed": true,
+        "points": [
+          [
+            115,
+            12
+          ],
+          [
+            118.25,
+            12
+          ],
+          [
+            118.25,
+            28
+          ],
+          [
+            115,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-5-0",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            115.0,
+            33
+          ],
+          [
+            115.0,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-5-1",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            115.55,
+            33
+          ],
+          [
+            115.55,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-5-2",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            116.1,
+            33
+          ],
+          [
+            116.1,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-5-3",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            116.65,
+            33
+          ],
+          [
+            116.65,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-5-4",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            117.2,
+            33
+          ],
+          [
+            117.2,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-5-5",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            117.75,
+            33
+          ],
+          [
+            117.75,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-fit-6",
+        "part_id": "F01",
+        "role": "cut_inner",
+        "closed": true,
+        "points": [
+          [
+            135,
+            12
+          ],
+          [
+            138.3,
+            12
+          ],
+          [
+            138.3,
+            28
+          ],
+          [
+            135,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-6-0",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            135.0,
+            33
+          ],
+          [
+            135.0,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-6-1",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            135.55,
+            33
+          ],
+          [
+            135.55,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-6-2",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            136.1,
+            33
+          ],
+          [
+            136.1,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-6-3",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            136.65,
+            33
+          ],
+          [
+            136.65,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-6-4",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            137.2,
+            33
+          ],
+          [
+            137.2,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-6-5",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            137.75,
+            33
+          ],
+          [
+            137.75,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F01-code-6-6",
+        "part_id": "F01",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            138.3,
+            33
+          ],
+          [
+            138.3,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "F02-outer",
+        "part_id": "F02",
+        "role": "cut_outer",
+        "closed": true,
+        "points": [
+          [
+            6,
+            52
+          ],
+          [
+            36,
+            52
+          ],
+          [
+            36,
+            74
+          ],
+          [
+            29,
+            74
+          ],
+          [
+            29,
+            82
+          ],
+          [
+            13,
+            82
+          ],
+          [
+            13,
+            74
+          ],
+          [
+            6,
+            74
+          ]
+        ]
+      },
+      {
+        "id": "F03-outer",
+        "part_id": "F03",
+        "role": "cut_outer",
+        "closed": true,
+        "points": [
+          [
+            45,
+            52
+          ],
+          [
+            69,
+            52
+          ],
+          [
+            69,
+            64
+          ],
+          [
+            57,
+            64
+          ],
+          [
+            57,
+            160
+          ],
+          [
+            45,
+            160
+          ]
+        ]
+      },
+      {
+        "id": "F03-12",
+        "part_id": "F03",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            45,
+            64
+          ],
+          [
+            55,
+            64
+          ]
+        ]
+      },
+      {
+        "id": "F04-outer",
+        "part_id": "F04",
+        "role": "cut_outer",
+        "closed": true,
+        "points": [
+          [
+            78,
+            52
+          ],
+          [
+            102,
+            52
+          ],
+          [
+            102,
+            64
+          ],
+          [
+            90,
+            64
+          ],
+          [
+            90,
+            160
+          ],
+          [
+            78,
+            160
+          ]
+        ]
+      },
+      {
+        "id": "F04-12",
+        "part_id": "F04",
+        "role": "score",
+        "closed": false,
+        "points": [
+          [
+            78,
+            64
+          ],
+          [
+            88,
+            64
+          ]
+        ]
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "id": "a9178bd48b5a49eca0d26b49475ceba2",
+      "label": "按冻结设计图逐批重建完成；等待跨进程恢复",
+      "revision": 2,
+      "time": 1793081355.1081285,
+      "path": "checkpoints/a9178bd48b5a49eca0d26b49475ceba2.json"
+    }
+  ],
+  "native": {
+    "path": "native\\fabbe7a6a1874cc9b48cfea6ca7c9b17-original-workstation.lcpx",
+    "sha256": "d90ed37e7457144b6770cdc0db65d2ae4b097d1f9122f2ada5ddc630a43a2bfd",
+    "revision": 2,
+    "design_digest": "dd4122fcc5855239cd097ff1c400e92ca8b23b387b970310d72cec47d93ba882",
+    "source_scope": {
+      "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+      "roles": [
+        "cut_inner",
+        "cut_outer",
+        "score"
+      ],
+      "complete": true,
+      "bounds_mm": [
+        6.0,
+        6.0,
+        160.0,
+        160.0
+      ]
+    },
+    "verification": {
+      "path": "examples/original-workstation/fixtures/project/native/fabbe7a6a1874cc9b48cfea6ca7c9b17-original-workstation.lcpx",
+      "sha256": "d90ed37e7457144b6770cdc0db65d2ae4b097d1f9122f2ada5ddc630a43a2bfd",
+      "reopen_verified": true,
+      "document_name": "fabbe7a6a1874cc9b48cfea6ca7c9b17-original-workstation.lcpx",
+      "position_mm": [
+        256.0,
+        196.0
+      ],
+      "selection_size_mm": [
+        154.0,
+        154.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#ff0000",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "score"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          6.0,
+          6.0,
+          160.0,
+          160.0
+        ]
+      },
+      "layer_process_readbacks": {
+        "#000000": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "#ff0000": {
+          "mode": "score",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        }
+      }
+    }
+  },
+  "created_at": 1793081080.302044,
+  "native_parameters_dirty": false,
+  "native_catalog": {
+    "native\\fabbe7a6a1874cc9b48cfea6ca7c9b17-original-workstation.lcpx": {
+      "revision": 2,
+      "design_digest": "dd4122fcc5855239cd097ff1c400e92ca8b23b387b970310d72cec47d93ba882",
+      "sha256": "d90ed37e7457144b6770cdc0db65d2ae4b097d1f9122f2ada5ddc630a43a2bfd",
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "score"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          6.0,
+          6.0,
+          160.0,
+          160.0
+        ]
+      }
+    }
+  },
+  "native_observed_sha256": "d90ed37e7457144b6770cdc0db65d2ae4b097d1f9122f2ada5ddc630a43a2bfd",
+  "native_external_change": false
+}

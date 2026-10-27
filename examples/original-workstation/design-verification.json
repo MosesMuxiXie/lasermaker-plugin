@@ -1,0 +1,2758 @@
+{
+  "blueprint_unchanged": true,
+  "dimension_comparison": [
+    {
+      "part": "B00",
+      "outer_deviation_mm": 0.002409450430387509,
+      "max_hole_deviation_mm": 0.0019272700717314225,
+      "hole_count": 14
+    },
+    {
+      "part": "B01",
+      "outer_deviation_mm": 0.004944015333938602,
+      "max_hole_deviation_mm": 0.0019272700717388141,
+      "hole_count": 42
+    },
+    {
+      "part": "B02",
+      "outer_deviation_mm": 0.004944015333938602,
+      "max_hole_deviation_mm": 0.0019272700717388141,
+      "hole_count": 42
+    },
+    {
+      "part": "B03",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.0018068156922630633,
+      "hole_count": 135
+    },
+    {
+      "part": "B04",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.0,
+      "hole_count": 4
+    },
+    {
+      "part": "B05",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "B06",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "B07",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "B08",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "B09",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "D1-01",
+      "outer_deviation_mm": 0.003613631384497058,
+      "max_hole_deviation_mm": 0.0,
+      "hole_count": 20
+    },
+    {
+      "part": "D1-02",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.002168178830693392,
+      "hole_count": 1
+    },
+    {
+      "part": "D1-03",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.002168178830693392,
+      "hole_count": 1
+    },
+    {
+      "part": "D1-04",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "D1-05",
+      "outer_deviation_mm": 0.003613631384497058,
+      "max_hole_deviation_mm": 0.0027106317341705896,
+      "hole_count": 1
+    },
+    {
+      "part": "D1-06",
+      "outer_deviation_mm": 0.0015059065189873865,
+      "max_hole_deviation_mm": 0.0027106317341705896,
+      "hole_count": 1
+    },
+    {
+      "part": "D1-07",
+      "outer_deviation_mm": 0.0015059065189873865,
+      "max_hole_deviation_mm": 0.0027106317341705896,
+      "hole_count": 1
+    },
+    {
+      "part": "D1-08",
+      "outer_deviation_mm": 0.0015059065189873865,
+      "max_hole_deviation_mm": 0.0027106317341705896,
+      "hole_count": 1
+    },
+    {
+      "part": "D1-09",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "D1-10",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "D1-11",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "D2-01",
+      "outer_deviation_mm": 0.003613631384497058,
+      "max_hole_deviation_mm": 0.0,
+      "hole_count": 20
+    },
+    {
+      "part": "D2-02",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.002168178830693392,
+      "hole_count": 1
+    },
+    {
+      "part": "D2-03",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.002168178830693392,
+      "hole_count": 1
+    },
+    {
+      "part": "D2-04",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "D2-05",
+      "outer_deviation_mm": 0.003613631384497058,
+      "max_hole_deviation_mm": 0.0027106317341705896,
+      "hole_count": 1
+    },
+    {
+      "part": "D2-06",
+      "outer_deviation_mm": 0.0015059065189873865,
+      "max_hole_deviation_mm": 0.0027106317341705896,
+      "hole_count": 1
+    },
+    {
+      "part": "D2-07",
+      "outer_deviation_mm": 0.0015059065189873865,
+      "max_hole_deviation_mm": 0.0027106317341705896,
+      "hole_count": 1
+    },
+    {
+      "part": "D2-08",
+      "outer_deviation_mm": 0.0015059065189873865,
+      "max_hole_deviation_mm": 0.0027106317341705896,
+      "hole_count": 1
+    },
+    {
+      "part": "D2-09",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "D2-10",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "D2-11",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "H01",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "H02",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "H03",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "H04",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "H05",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "H06",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "C01",
+      "outer_deviation_mm": 0.0030113594870888574,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "C02",
+      "outer_deviation_mm": 0.0030113594870888574,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "U1",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.0,
+      "hole_count": 12
+    },
+    {
+      "part": "U2",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.0018068156922625858,
+      "hole_count": 12
+    },
+    {
+      "part": "U3",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.0018068156922625858,
+      "hole_count": 12
+    },
+    {
+      "part": "U4",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.0018068156922630633,
+      "hole_count": 9
+    },
+    {
+      "part": "U5",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.0018068156922630633,
+      "hole_count": 9
+    },
+    {
+      "part": "U6",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "U7",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "T1",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0.0,
+      "hole_count": 10
+    },
+    {
+      "part": "T2",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "T3",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "T4",
+      "outer_deviation_mm": 0.0037642961160706534,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "T5",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "T6",
+      "outer_deviation_mm": 0.0,
+      "max_hole_deviation_mm": 0,
+      "hole_count": 0
+    },
+    {
+      "part": "R01",
+      "outer_deviation_mm": 0.0036136313844909386,
+      "max_hole_deviation_mm": 0.0019272700717335614,
+      "hole_count": 2
+    }
+  ],
+  "max_plan_deviation_mm": 0.004944015333938602,
+  "mating": {
+    "matched_tab_slot_pairs": [
+      {
+        "tab_part": "B01",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -130,
+          -68,
+          0,
+          -127,
+          -52,
+          3
+        ],
+        "matches": [
+          {
+            "slot_part": "B00",
+            "slot_id": "B00-side--128.5--60",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B01",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -130,
+          -8,
+          0,
+          -127,
+          8,
+          3
+        ],
+        "matches": [
+          {
+            "slot_part": "B00",
+            "slot_id": "B00-side--128.5-0",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B01",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -130,
+          52,
+          0,
+          -127,
+          68,
+          3
+        ],
+        "matches": [
+          {
+            "slot_part": "B00",
+            "slot_id": "B00-side--128.5-60",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B02",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          127,
+          -68,
+          0,
+          130,
+          -52,
+          3
+        ],
+        "matches": [
+          {
+            "slot_part": "B00",
+            "slot_id": "B00-side-128.5--60",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B02",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          127,
+          -8,
+          0,
+          130,
+          8,
+          3
+        ],
+        "matches": [
+          {
+            "slot_part": "B00",
+            "slot_id": "B00-side-128.5-0",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B02",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          127,
+          52,
+          0,
+          130,
+          68,
+          3
+        ],
+        "matches": [
+          {
+            "slot_part": "B00",
+            "slot_id": "B00-side-128.5-60",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B03",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -98,
+          87,
+          0,
+          -82,
+          90,
+          3
+        ],
+        "matches": [
+          {
+            "slot_part": "B00",
+            "slot_id": "B00-back--90",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B03",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -38,
+          87,
+          0,
+          -22,
+          90,
+          3
+        ],
+        "matches": [
+          {
+            "slot_part": "B00",
+            "slot_id": "B00-back--30",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B03",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          22,
+          87,
+          0,
+          38,
+          90,
+          3
+        ],
+        "matches": [
+          {
+            "slot_part": "B00",
+            "slot_id": "B00-back-30",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B03",
+        "tab_index": 3,
+        "tab_world_bounds_mm": [
+          82,
+          87,
+          0,
+          98,
+          90,
+          3
+        ],
+        "matches": [
+          {
+            "slot_part": "B00",
+            "slot_id": "B00-back-90",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B04",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -130,
+          -68,
+          200,
+          -127,
+          -52,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-deck--60-201.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B04",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          127,
+          -68,
+          200,
+          130,
+          -52,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-deck--60-201.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B04",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -130,
+          -8,
+          200,
+          -127,
+          8,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-deck-0-201.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B04",
+        "tab_index": 3,
+        "tab_world_bounds_mm": [
+          127,
+          -8,
+          200,
+          130,
+          8,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-deck-0-201.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B04",
+        "tab_index": 4,
+        "tab_world_bounds_mm": [
+          -130,
+          52,
+          200,
+          -127,
+          68,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-deck-60-201.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B04",
+        "tab_index": 5,
+        "tab_world_bounds_mm": [
+          127,
+          52,
+          200,
+          130,
+          68,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-deck-60-201.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B04",
+        "tab_index": 6,
+        "tab_world_bounds_mm": [
+          -98,
+          87,
+          200,
+          -82,
+          90,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-deck--90-201.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B04",
+        "tab_index": 7,
+        "tab_world_bounds_mm": [
+          -38,
+          87,
+          200,
+          -22,
+          90,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-deck--30-201.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B04",
+        "tab_index": 8,
+        "tab_world_bounds_mm": [
+          22,
+          87,
+          200,
+          38,
+          90,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-deck-30-201.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B04",
+        "tab_index": 9,
+        "tab_world_bounds_mm": [
+          82,
+          87,
+          200,
+          98,
+          90,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-deck-90-201.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B05",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -130,
+          -68,
+          96,
+          -127,
+          -52,
+          99
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-deck--60-97.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B05",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          127,
+          -68,
+          96,
+          130,
+          -52,
+          99
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-deck--60-97.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B05",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -130,
+          -8,
+          96,
+          -127,
+          8,
+          99
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-deck-0-97.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B05",
+        "tab_index": 3,
+        "tab_world_bounds_mm": [
+          127,
+          -8,
+          96,
+          130,
+          8,
+          99
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-deck-0-97.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B05",
+        "tab_index": 4,
+        "tab_world_bounds_mm": [
+          -130,
+          52,
+          96,
+          -127,
+          68,
+          99
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-deck-60-97.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B05",
+        "tab_index": 5,
+        "tab_world_bounds_mm": [
+          127,
+          52,
+          96,
+          130,
+          68,
+          99
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-deck-60-97.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B05",
+        "tab_index": 6,
+        "tab_world_bounds_mm": [
+          -98,
+          87,
+          96,
+          -82,
+          90,
+          99
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-deck--90-97.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B05",
+        "tab_index": 7,
+        "tab_world_bounds_mm": [
+          -38,
+          87,
+          96,
+          -22,
+          90,
+          99
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-deck--30-97.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B05",
+        "tab_index": 8,
+        "tab_world_bounds_mm": [
+          22,
+          87,
+          96,
+          38,
+          90,
+          99
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-deck-30-97.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B05",
+        "tab_index": 9,
+        "tab_world_bounds_mm": [
+          82,
+          87,
+          96,
+          98,
+          90,
+          99
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-deck-90-97.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B06",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -130,
+          -66,
+          12,
+          -127,
+          -54,
+          15
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-rail--60-13.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B06",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -130,
+          -6,
+          12,
+          -127,
+          6,
+          15
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-rail-0-13.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B06",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -130,
+          54,
+          12,
+          -127,
+          66,
+          15
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-rail-60-13.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B07",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          127,
+          -66,
+          12,
+          130,
+          -54,
+          15
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-rail--60-13.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B07",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          127,
+          -6,
+          12,
+          130,
+          6,
+          15
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-rail-0-13.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B07",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          127,
+          54,
+          12,
+          130,
+          66,
+          15
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-rail-60-13.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B08",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -130,
+          -66,
+          108,
+          -127,
+          -54,
+          111
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-rail--60-109.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B08",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -130,
+          -6,
+          108,
+          -127,
+          6,
+          111
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-rail-0-109.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B08",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -130,
+          54,
+          108,
+          -127,
+          66,
+          111
+        ],
+        "matches": [
+          {
+            "slot_part": "B01",
+            "slot_id": "B01-rail-60-109.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B09",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          127,
+          -66,
+          108,
+          130,
+          -54,
+          111
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-rail--60-109.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B09",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          127,
+          -6,
+          108,
+          130,
+          6,
+          111
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-rail-0-109.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "B09",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          127,
+          54,
+          108,
+          130,
+          66,
+          111
+        ],
+        "matches": [
+          {
+            "slot_part": "B02",
+            "slot_id": "B02-rail-60-109.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-02",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -121,
+          -66,
+          15,
+          -118,
+          -54,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-side--119.5--60",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-02",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -121,
+          -6,
+          15,
+          -118,
+          6,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-side--119.5-0",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-02",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -121,
+          49,
+          15,
+          -118,
+          61,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-side--119.5-55",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-03",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          118,
+          -66,
+          15,
+          121,
+          -54,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-side-119.5--60",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-03",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          118,
+          -6,
+          15,
+          121,
+          6,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-side-119.5-0",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-03",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          118,
+          49,
+          15,
+          121,
+          61,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-side-119.5-55",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-04",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -91,
+          68,
+          15,
+          -79,
+          71,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-back--85",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-04",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -6,
+          68,
+          15,
+          6,
+          71,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-back-0",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-04",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          79,
+          68,
+          15,
+          91,
+          71,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-back-85",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-05",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -101,
+          -84,
+          15,
+          -89,
+          -81,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-front--95",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-05",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -38,
+          -84,
+          15,
+          -26,
+          -81,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-front--32",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-05",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          26,
+          -84,
+          15,
+          38,
+          -81,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-front-32",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-05",
+        "tab_index": 3,
+        "tab_world_bounds_mm": [
+          89,
+          -84,
+          15,
+          101,
+          -81,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-front-95",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-09",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -1.5,
+          -61,
+          15,
+          1.5,
+          -49,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-long--55",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-09",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -1.5,
+          -6,
+          15,
+          1.5,
+          6,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-long-0",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-09",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -1.5,
+          44,
+          15,
+          1.5,
+          56,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-long-50",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-10",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -86,
+          -31.5,
+          15,
+          -74,
+          -28.5,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-cross--80--30",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-10",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          74,
+          -31.5,
+          15,
+          86,
+          -28.5,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-cross-80--30",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-11",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -86,
+          23.5,
+          15,
+          -74,
+          26.5,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-cross--80-25",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D1-11",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          74,
+          23.5,
+          15,
+          86,
+          26.5,
+          18
+        ],
+        "matches": [
+          {
+            "slot_part": "D1-01",
+            "slot_id": "D1-01-cross-80-25",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-02",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -121,
+          -66,
+          111,
+          -118,
+          -54,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-side--119.5--60",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-02",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -121,
+          -6,
+          111,
+          -118,
+          6,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-side--119.5-0",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-02",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -121,
+          49,
+          111,
+          -118,
+          61,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-side--119.5-55",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-03",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          118,
+          -66,
+          111,
+          121,
+          -54,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-side-119.5--60",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-03",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          118,
+          -6,
+          111,
+          121,
+          6,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-side-119.5-0",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-03",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          118,
+          49,
+          111,
+          121,
+          61,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-side-119.5-55",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-04",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -91,
+          68,
+          111,
+          -79,
+          71,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-back--85",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-04",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -6,
+          68,
+          111,
+          6,
+          71,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-back-0",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-04",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          79,
+          68,
+          111,
+          91,
+          71,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-back-85",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-05",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -101,
+          -84,
+          111,
+          -89,
+          -81,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-front--95",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-05",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -38,
+          -84,
+          111,
+          -26,
+          -81,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-front--32",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-05",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          26,
+          -84,
+          111,
+          38,
+          -81,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-front-32",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-05",
+        "tab_index": 3,
+        "tab_world_bounds_mm": [
+          89,
+          -84,
+          111,
+          101,
+          -81,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-front-95",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-09",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -1.5,
+          -61,
+          111,
+          1.5,
+          -49,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-long--55",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-09",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -1.5,
+          -6,
+          111,
+          1.5,
+          6,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-long-0",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-09",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -1.5,
+          44,
+          111,
+          1.5,
+          56,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-long-50",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-10",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -86,
+          -31.5,
+          111,
+          -74,
+          -28.5,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-cross--80--30",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-10",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          74,
+          -31.5,
+          111,
+          86,
+          -28.5,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-cross-80--30",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-11",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -86,
+          23.5,
+          111,
+          -74,
+          26.5,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-cross--80-25",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "D2-11",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          74,
+          23.5,
+          111,
+          86,
+          26.5,
+          114
+        ],
+        "matches": [
+          {
+            "slot_part": "D2-01",
+            "slot_id": "D2-01-cross-80-25",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H01",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -109.5,
+          87,
+          223,
+          -106.5,
+          90,
+          233
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg--108-228",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H01",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -109.5,
+          87,
+          241,
+          -106.5,
+          90,
+          251
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg--108-246",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H02",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -73.5,
+          87,
+          223,
+          -70.5,
+          90,
+          233
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg--72-228",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H02",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -73.5,
+          87,
+          241,
+          -70.5,
+          90,
+          251
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg--72-246",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H03",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -37.5,
+          87,
+          223,
+          -34.5,
+          90,
+          233
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg--36-228",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H03",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -37.5,
+          87,
+          241,
+          -34.5,
+          90,
+          251
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg--36-246",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H04",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          34.5,
+          87,
+          223,
+          37.5,
+          90,
+          233
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg-36-228",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H04",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          34.5,
+          87,
+          241,
+          37.5,
+          90,
+          251
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg-36-246",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H05",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          70.5,
+          87,
+          223,
+          73.5,
+          90,
+          233
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg-72-228",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H05",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          70.5,
+          87,
+          241,
+          73.5,
+          90,
+          251
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg-72-246",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H06",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          106.5,
+          87,
+          223,
+          109.5,
+          90,
+          233
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg-108-228",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "H06",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          106.5,
+          87,
+          241,
+          109.5,
+          90,
+          251
+        ],
+        "matches": [
+          {
+            "slot_part": "B03",
+            "slot_id": "B03-peg-108-246",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "C01",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          69,
+          -41.5,
+          200,
+          81,
+          -38.5,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B04",
+            "slot_id": "B04-comb-75--40",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "C01",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          99,
+          -41.5,
+          200,
+          111,
+          -38.5,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B04",
+            "slot_id": "B04-comb-105--40",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "C02",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          69,
+          -21.5,
+          200,
+          81,
+          -18.5,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B04",
+            "slot_id": "B04-comb-75--20",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "C02",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          99,
+          -21.5,
+          200,
+          111,
+          -18.5,
+          203
+        ],
+        "matches": [
+          {
+            "slot_part": "B04",
+            "slot_id": "B04-comb-105--20",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U2",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -114,
+          -22,
+          203,
+          -111,
+          -10,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-side--112.5--16",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U2",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -114,
+          19,
+          203,
+          -111,
+          31,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-side--112.5-25",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U3",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -49,
+          -22,
+          203,
+          -46,
+          -10,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-side--47.5--16",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U3",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -49,
+          19,
+          203,
+          -46,
+          31,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-side--47.5-25",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U4",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -99,
+          -34,
+          203,
+          -89,
+          -31,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-end--94--32.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U4",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -71,
+          -34,
+          203,
+          -61,
+          -31,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-end--66--32.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U5",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -99,
+          41,
+          203,
+          -89,
+          44,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-end--94-42.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U5",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -71,
+          41,
+          203,
+          -61,
+          44,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-end--66-42.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U6",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -81.5,
+          -23,
+          203,
+          -78.5,
+          -13,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-center--18",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U6",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -81.5,
+          23,
+          203,
+          -78.5,
+          33,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-center-28",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U7",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -106,
+          3.5,
+          203,
+          -96,
+          6.5,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-cross--101",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "U7",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -64,
+          3.5,
+          203,
+          -54,
+          6.5,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "U1",
+            "slot_id": "U1-cross--59",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "T2",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -19,
+          -22,
+          203,
+          -16,
+          -10,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "T1",
+            "slot_id": "T1-side--17.5--16",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "T2",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          -19,
+          19,
+          203,
+          -16,
+          31,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "T1",
+            "slot_id": "T1-side--17.5-25",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "T3",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          46,
+          -22,
+          203,
+          49,
+          -10,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "T1",
+            "slot_id": "T1-side-47.5--16",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "T3",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          46,
+          19,
+          203,
+          49,
+          31,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "T1",
+            "slot_id": "T1-side-47.5-25",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "T4",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -4,
+          -34,
+          203,
+          6,
+          -31,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "T1",
+            "slot_id": "T1-end-1--32.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "T4",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          24,
+          -34,
+          203,
+          34,
+          -31,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "T1",
+            "slot_id": "T1-end-29--32.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "T5",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          -4,
+          41,
+          203,
+          6,
+          44,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "T1",
+            "slot_id": "T1-end-1-42.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "T5",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          24,
+          41,
+          203,
+          34,
+          44,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "T1",
+            "slot_id": "T1-end-29-42.5",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "T6",
+        "tab_index": 0,
+        "tab_world_bounds_mm": [
+          13.5,
+          -21,
+          203,
+          16.5,
+          -11,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "T1",
+            "slot_id": "T1-divider--16",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      },
+      {
+        "tab_part": "T6",
+        "tab_index": 1,
+        "tab_world_bounds_mm": [
+          13.5,
+          20,
+          203,
+          16.5,
+          30,
+          206
+        ],
+        "matches": [
+          {
+            "slot_part": "T1",
+            "slot_id": "T1-divider-25",
+            "planar_clearance_to_edge_mm": 0.075
+          }
+        ]
+      }
+    ],
+    "nonpenetrating_hook_bridges": [
+      {
+        "tab_part": "H01",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -109.5,
+          74,
+          223,
+          -106.5,
+          87,
+          235
+        ],
+        "matches": []
+      },
+      {
+        "tab_part": "H02",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -73.5,
+          74,
+          223,
+          -70.5,
+          87,
+          235
+        ],
+        "matches": []
+      },
+      {
+        "tab_part": "H03",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          -37.5,
+          74,
+          223,
+          -34.5,
+          87,
+          235
+        ],
+        "matches": []
+      },
+      {
+        "tab_part": "H04",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          34.5,
+          74,
+          223,
+          37.5,
+          87,
+          235
+        ],
+        "matches": []
+      },
+      {
+        "tab_part": "H05",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          70.5,
+          74,
+          223,
+          73.5,
+          87,
+          235
+        ],
+        "matches": []
+      },
+      {
+        "tab_part": "H06",
+        "tab_index": 2,
+        "tab_world_bounds_mm": [
+          106.5,
+          74,
+          223,
+          109.5,
+          87,
+          235
+        ],
+        "matches": []
+      }
+    ]
+  },
+  "drawer_states": [
+    {
+      "parts": 54,
+      "positive_volume_intersections": [],
+      "all_signed_mesh_volumes_positive": true,
+      "intersection_threshold_mm3": 1e-06,
+      "physical_fit_verified": false,
+      "coverage": "54 axis-aligned wood plates; contacts allowed; hardware/loads excluded.",
+      "travel_mm": 0
+    },
+    {
+      "parts": 54,
+      "positive_volume_intersections": [],
+      "all_signed_mesh_volumes_positive": true,
+      "intersection_threshold_mm3": 1e-06,
+      "physical_fit_verified": false,
+      "coverage": "54 axis-aligned wood plates; contacts allowed; hardware/loads excluded.",
+      "travel_mm": 40
+    },
+    {
+      "parts": 54,
+      "positive_volume_intersections": [],
+      "all_signed_mesh_volumes_positive": true,
+      "intersection_threshold_mm3": 1e-06,
+      "physical_fit_verified": false,
+      "coverage": "54 axis-aligned wood plates; contacts allowed; hardware/loads excluded.",
+      "travel_mm": 80
+    }
+  ],
+  "continuous_travel_check": {
+    "travel_range_mm": [
+      0,
+      80
+    ],
+    "method": "Exact polygonal Minkowski sweep along Y of triangulated wood stock; fixed vs moving only; rigid moving contacts checked in states.",
+    "stationary_vs_swept_intersections": []
+  },
+  "rail_support": {
+    "closed_overlap_per_rail_mm": [
+      8,
+      163
+    ],
+    "at_80mm_overlap_per_rail_mm": [
+      8,
+      83
+    ],
+    "note": "Nominal geometric support area only; deflection, friction and tipping unverified."
+  },
+  "guide_geometry": {
+    "carcass_bolt_y_mm": -40,
+    "relative_y_closed_open_mm": [
+      -40,
+      40
+    ],
+    "capsule_centerline_endpoints_mm": [
+      -53.2,
+      43.2
+    ],
+    "shaft_diameter_assumed_mm": 3,
+    "slot_width_mm": 3.6,
+    "side_wall_gap_mm": 6
+  },
+  "physical_fit_verified": false,
+  "machine_validated": false
+}

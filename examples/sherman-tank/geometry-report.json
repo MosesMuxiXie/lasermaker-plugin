@@ -1,0 +1,73 @@
+{
+  "source": "assembly-source.json",
+  "part_count": 39,
+  "joints": 16,
+  "sheet_design_sha256": [
+    "bb1160860252812ff2368f2cb7b2c288fd196bf619b8ed4740af707c660979d8",
+    "a53d2968d97a0663fb3c0e5af704b9bbf92fdaed1baad407e178dd557303cc54"
+  ],
+  "assembled_bounds_mm": [
+    -88.0,
+    -45.0,
+    0.0,
+    110.0,
+    45.0,
+    78.0
+  ],
+  "sheets": [
+    {
+      "geometry_passed": true,
+      "manufacturing_ready": false,
+      "bounds_mm": [
+        5.0,
+        5.0,
+        234.0,
+        229.0
+      ],
+      "object_count": 27,
+      "part_count": 8,
+      "errors": [],
+      "warnings": [
+        {
+          "code": "KERF_UNMEASURED"
+        },
+        {
+          "code": "PHYSICAL_FIT_UNVERIFIED"
+        },
+        {
+          "code": "MACHINE_AND_PROCESS_REQUIRE_ON_SITE_VALIDATION"
+        }
+      ],
+      "geometry_tolerance_mm": 0.01
+    },
+    {
+      "geometry_passed": true,
+      "manufacturing_ready": false,
+      "bounds_mm": [
+        5.0,
+        5.0,
+        276.0,
+        228.0
+      ],
+      "object_count": 88,
+      "part_count": 31,
+      "errors": [],
+      "warnings": [
+        {
+          "code": "KERF_UNMEASURED"
+        },
+        {
+          "code": "PHYSICAL_FIT_UNVERIFIED"
+        },
+        {
+          "code": "MACHINE_AND_PROCESS_REQUIRE_ON_SITE_VALIDATION"
+        }
+      ],
+      "geometry_tolerance_mm": 0.01
+    }
+  ],
+  "triangles": 18820,
+  "machine_validated": false,
+  "fit_validated": false,
+  "note": "Per-part manifold and volume checks run in tests/test_tank.py; assembled STL is a multi-solid visualization, not a fused manufacturing mesh."
+}

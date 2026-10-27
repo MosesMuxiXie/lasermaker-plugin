@@ -1,0 +1,131 @@
+{
+  "project_id": "80b9ccb748574806ab7b8829425228ec",
+  "revision": 3,
+  "artifacts": {
+    "svg": "project/artifacts/r000003-f72bc0a2648a/design.svg",
+    "dxf": "project/artifacts/r000003-f72bc0a2648a/design.dxf",
+    "source": "project/artifacts/r000003-f72bc0a2648a/design.json",
+    "preflight": "project/artifacts/r000003-f72bc0a2648a/preflight.json",
+    "score": "project/artifacts/r000003-f72bc0a2648a/stage-score.svg",
+    "engrave": "project/artifacts/r000003-f72bc0a2648a/stage-engrave.svg",
+    "cut_inner": "project/artifacts/r000003-f72bc0a2648a/stage-cut_inner.svg",
+    "cut_outer": "project/artifacts/r000003-f72bc0a2648a/stage-cut_outer.svg",
+    "native": "project/artifacts/r000003-f72bc0a2648a/design.lcpx",
+    "stage_registration": "stage-registration.json",
+    "dxf_score": "stage-score.dxf",
+    "dxf_engrave": "stage-engrave.dxf",
+    "dxf_cut_inner": "stage-cut_inner.dxf",
+    "dxf_cut_outer": "stage-cut_outer.dxf"
+  },
+  "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+  "discretization_profile": "adaptive-chord-v2-exact-source-endpoints",
+  "native_current": true,
+  "native_evidence": {
+    "path": "native\\80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+    "sha256": "727c293f9af843e505992274b9bf064abd1cc3f9e2838f82c84838c55cabcd98",
+    "revision": 3,
+    "design_digest": "5371f068f2b7c2a5fb4d88b641893b50dd2a7cf9914175cb782d14656768bb94",
+    "source_scope": {
+      "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+      "roles": [
+        "cut_inner",
+        "cut_outer",
+        "engrave"
+      ],
+      "complete": true,
+      "bounds_mm": [
+        6.0,
+        6.0,
+        580.0,
+        392.0
+      ]
+    },
+    "verification": {
+      "path": "examples/original-workstation/sheet-3/project/native/80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+      "sha256": "727c293f9af843e505992274b9bf064abd1cc3f9e2838f82c84838c55cabcd98",
+      "reopen_verified": true,
+      "document_name": "80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+      "position_mm": [
+        466.0,
+        312.0
+      ],
+      "selection_size_mm": [
+        574.0,
+        386.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          6.0,
+          6.0,
+          580.0,
+          392.0
+        ]
+      },
+      "layer_process_readbacks": {
+        "#000000": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "#0000ff": {
+          "mode": "engrave",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        }
+      }
+    }
+  },
+  "process_settings_verified": true,
+  "geometry_passed": true,
+  "manufacturing_ready": false,
+  "required_on_site": [
+    "machine/bed/controller",
+    "material thickness and slot fit",
+    "speed/power test",
+    "inner-before-outer execution"
+  ],
+  "process_order": [
+    "score/engrave",
+    "cut_inner",
+    "cut_outer"
+  ],
+  "sha256": {
+    "svg": "4725242d74b84d5657adff395ddca0aff4a4fa215cc9823ca04722db11a2a47a",
+    "dxf": "f41f8c1b67bddfd41045a114f9972a2c1965b5bf49c7c4c1d87a7c60bc81963f",
+    "source": "374c85edd3dddaff83a81d3b7089e32bbb28fd47603afd55acaa2f4e519df21b",
+    "preflight": "2c7547403b39d8a28639c8435d91e9fe5d50167b5604d9d3d3de27825a217e9e",
+    "score": "1de8d5ea066928dfefb8d9a916888fe81dc6850487ddb5ccb44e4c5f4f974830",
+    "engrave": "16e940519904a9f74b66b4d9b258532475c5fb1f5ab22f1cf552653d89678b50",
+    "cut_inner": "bfa9b464eabe41e78231de973407b57169416495ed71b8f7db6e8e37a2b1d251",
+    "cut_outer": "83f2ba16f26855ec64d9d1b9e7188535dec63c83948fd85952cf8a110e7ed556",
+    "native": "727c293f9af843e505992274b9bf064abd1cc3f9e2838f82c84838c55cabcd98",
+    "stage_registration": "456dd9d9af4997291b1a7d8c1bcda23af22d632dc1d51c0cb0585806f48fa8b6",
+    "dxf_score": "3b44a6176b28fee4879545c9c731766af62b96acfaaf52ddc4e339fbfbd1dc5b",
+    "dxf_engrave": "095503b25ca21e988e295e4db4e070fa3f28591ea59351dd885c83d961ca77d8",
+    "dxf_cut_inner": "4df9d77331b782fe103141a4ea1d61cfeb9c20bbeb00724e4e1fba821780ebe5",
+    "dxf_cut_outer": "26dfcddfddbf2152ce20e73c3673fd28d24dd8808ee7f0bbae9646c82f13c967"
+  }
+}

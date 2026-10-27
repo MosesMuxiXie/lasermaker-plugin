@@ -1,0 +1,90 @@
+{
+  "units": "mm",
+  "source_y_direction": "down",
+  "full_bounds_mm": [
+    6.0,
+    6.0,
+    576.0,
+    336.0
+  ],
+  "full_source_center_mm": [
+    291.0,
+    171.0
+  ],
+  "stages": [
+    {
+      "role": "score",
+      "empty": false,
+      "bounds_mm": [
+        16.0,
+        327.0,
+        196.0,
+        333.0
+      ],
+      "source_center_mm": [
+        106.0,
+        330.0
+      ],
+      "source_center_delta_mm": [
+        -185.0,
+        159.0
+      ]
+    },
+    {
+      "role": "engrave",
+      "empty": false,
+      "bounds_mm": [
+        16.0,
+        17.0,
+        412.68136272545087,
+        322.0
+      ],
+      "source_center_mm": [
+        214.34068136272543,
+        169.5
+      ],
+      "source_center_delta_mm": [
+        -76.65931863727457,
+        -1.5
+      ]
+    },
+    {
+      "role": "cut_inner",
+      "empty": false,
+      "bounds_mm": [
+        10.4,
+        42.199999999999996,
+        561.0,
+        325.6
+      ],
+      "source_center_mm": [
+        285.7,
+        183.9
+      ],
+      "source_center_delta_mm": [
+        -5.300000000000011,
+        12.900000000000006
+      ]
+    },
+    {
+      "role": "cut_outer",
+      "empty": false,
+      "bounds_mm": [
+        6.0,
+        6.0,
+        576.0,
+        336.0
+      ],
+      "source_center_mm": [
+        291.0,
+        171.0
+      ],
+      "source_center_delta_mm": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "gui_and_machine_registration_verified": false,
+  "instruction": "LaserMaker may center each import separately. Fix the center anchor, confirm GUI Y direction and register each stage against the full design. These deltas are not machine coordinates."
+}

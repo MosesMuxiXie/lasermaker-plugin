@@ -1,0 +1,51 @@
+{
+  "configured_limit": 20000,
+  "objects_reached": 20000,
+  "over_limit_error": [
+    "ValueError: OBJECT_LIMIT_OR_INVALID_LIST"
+  ],
+  "rejected_without_file_mutation": true,
+  "large_stdio_response_verified": true,
+  "calls": [
+    {
+      "tool": "create_project",
+      "seconds": 2.484,
+      "is_error": false
+    },
+    {
+      "tool": "apply_design_ops",
+      "seconds": 3.985,
+      "is_error": false
+    },
+    {
+      "tool": "apply_design_ops",
+      "seconds": 4.359,
+      "is_error": false
+    },
+    {
+      "tool": "resume_project",
+      "seconds": 5.031,
+      "is_error": false
+    },
+    {
+      "tool": "apply_design_ops",
+      "seconds": 3.953,
+      "is_error": true
+    },
+    {
+      "tool": "preflight",
+      "seconds": 5.734,
+      "is_error": false
+    },
+    {
+      "tool": "checkpoint",
+      "seconds": 4.563,
+      "is_error": false
+    }
+  ],
+  "elapsed_seconds": 34.515,
+  "imported_to_gui": false,
+  "machine_started": false,
+  "project": "work/workstation-limit-20000",
+  "timed_soak": false
+}

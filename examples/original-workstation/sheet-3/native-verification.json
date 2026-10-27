@@ -1,0 +1,453 @@
+{
+  "sheet": "sheet-3",
+  "objects": 102,
+  "revision": 3,
+  "project_id": "80b9ccb748574806ab7b8829425228ec",
+  "design_digest": "5371f068f2b7c2a5fb4d88b641893b50dd2a7cf9914175cb782d14656768bb94",
+  "source_sha256": "374c85edd3dddaff83a81d3b7089e32bbb28fd47603afd55acaa2f4e519df21b",
+  "mcp_restart_resumed": true,
+  "import": {
+    "path": "examples/original-workstation/sheet-3/project/imports/80b9ccb748574806ab7b8829425228ec-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+    "document_name": "80b9ccb748574806ab7b8829425228ec-da0c7d1259221fb884e7bf7c2b9a049e.svg",
+    "import_verified": true,
+    "position_mm": [
+      466.0,
+      312.0
+    ],
+    "selection_size_mm": [
+      574.0,
+      386.0
+    ],
+    "position_anchor": "application_current_anchor",
+    "layers": [
+      {
+        "color": "#0000ff",
+        "speed_mm_s": 100.0,
+        "power_max_percent": 15.0
+      },
+      {
+        "color": "#000000",
+        "speed_mm_s": 10.0,
+        "power_max_percent": 15.0
+      }
+    ],
+    "note": "Relative layout and size verified. Bed placement depends on the application's anchor/origin.",
+    "project_id": "80b9ccb748574806ab7b8829425228ec",
+    "revision": 3,
+    "request_id": "original-A1-native-import",
+    "manufacturing_ready": false
+  },
+  "reopened": {
+    "path": "examples/original-workstation/sheet-3/project/native/80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+    "sha256": "727c293f9af843e505992274b9bf064abd1cc3f9e2838f82c84838c55cabcd98",
+    "reopen_verified": true,
+    "document_name": "80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+    "position_mm": [
+      466.0,
+      312.0
+    ],
+    "selection_size_mm": [
+      574.0,
+      386.0
+    ],
+    "position_anchor": "application_current_anchor",
+    "layers": [
+      {
+        "color": "#0000ff",
+        "speed_mm_s": 100.0,
+        "power_max_percent": 15.0
+      },
+      {
+        "color": "#000000",
+        "speed_mm_s": 10.0,
+        "power_max_percent": 15.0
+      }
+    ],
+    "process_order_verified": false,
+    "simulation_verified": false,
+    "source_scope": {
+      "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+      "roles": [
+        "cut_inner",
+        "cut_outer",
+        "engrave"
+      ],
+      "complete": true,
+      "bounds_mm": [
+        6.0,
+        6.0,
+        580.0,
+        392.0
+      ]
+    },
+    "project_id": "80b9ccb748574806ab7b8829425228ec",
+    "revision": 3,
+    "request_id": "original-A1-native-reopen",
+    "manufacturing_ready": false
+  },
+  "process_readbacks": [
+    {
+      "color": "#000000",
+      "process_readback": {
+        "mode": "cut",
+        "speed_mm_s": 10.0,
+        "power_max_percent": 15.0,
+        "power_min_percent": 13.0
+      },
+      "process_verified": true,
+      "document_name": "80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+      "project_id": "80b9ccb748574806ab7b8829425228ec",
+      "revision": 3,
+      "request_id": "original-A1-native-verify-cut",
+      "manufacturing_ready": false
+    },
+    {
+      "color": "#0000ff",
+      "process_readback": {
+        "mode": "engrave",
+        "speed_mm_s": 100.0,
+        "power_max_percent": 15.0
+      },
+      "process_verified": true,
+      "document_name": "80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+      "project_id": "80b9ccb748574806ab7b8829425228ec",
+      "revision": 3,
+      "request_id": "original-A1-native-verify-engrave",
+      "manufacturing_ready": false
+    }
+  ],
+  "view": {
+    "view_only": true,
+    "document_name": "80b9ccb748574806ab7b8829425228ec-original-workstation.lcpx",
+    "fit_control_clicked": true,
+    "fit_all_verified": false
+  },
+  "capture": {
+    "hwnd": 594116,
+    "method": "Windows.Graphics.Capture",
+    "path": "examples/original-workstation/sheet-3/project/evidence/reopened.png",
+    "blank_frames_skipped": 0,
+    "size": [
+      1920,
+      1140
+    ],
+    "screenshot": "examples/original-workstation/sheet-3/project/evidence/reopened.png",
+    "ocr": {
+      "available": true,
+      "text": "LaserMaker v2.1.7.2 üi+l -x-ag2 fi*.lcpx X ooo fi*.lcpx ooo sab7b8829425228ec-original X mm 0/0 mm % 90.00 0 100.0 10.0 15.0 15.0 02 03 04",
+      "lines": [
+        {
+          "text": "LaserMaker v2.1.7.2",
+          "words": [
+            {
+              "text": "LaserMaker",
+              "rectangle": [
+                53.0,
+                16.0,
+                79.0,
+                11.0
+              ]
+            },
+            {
+              "text": "v2.1.7.2",
+              "rectangle": [
+                136.0,
+                17.0,
+                47.0,
+                10.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "üi+l",
+          "words": [
+            {
+              "text": "üi+l",
+              "rectangle": [
+                275.0,
+                16.0,
+                34.0,
+                12.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "-x-ag2 fi*.lcpx",
+          "words": [
+            {
+              "text": "-x-ag2",
+              "rectangle": [
+                458.0,
+                15.0,
+                50.0,
+                13.0
+              ]
+            },
+            {
+              "text": "fi*.lcpx",
+              "rectangle": [
+                515.0,
+                16.0,
+                60.0,
+                14.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "X ooo",
+          "words": [
+            {
+              "text": "X",
+              "rectangle": [
+                491.0,
+                70.0,
+                13.0,
+                14.0
+              ]
+            },
+            {
+              "text": "ooo",
+              "rectangle": [
+                514.0,
+                72.0,
+                31.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fi*.lcpx",
+          "words": [
+            {
+              "text": "fi*.lcpx",
+              "rectangle": [
+                739.0,
+                16.0,
+                60.0,
+                14.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ooo",
+          "words": [
+            {
+              "text": "ooo",
+              "rectangle": [
+                742.0,
+                107.0,
+                32.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sab7b8829425228ec-original X",
+          "words": [
+            {
+              "text": "sab7b8829425228ec-original",
+              "rectangle": [
+                867.0,
+                16.0,
+                196.0,
+                14.0
+              ]
+            },
+            {
+              "text": "X",
+              "rectangle": [
+                1070.0,
+                15.0,
+                10.0,
+                10.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "mm 0/0",
+          "words": [
+            {
+              "text": "mm",
+              "rectangle": [
+                815.0,
+                74.0,
+                28.0,
+                9.0
+              ]
+            },
+            {
+              "text": "0/0",
+              "rectangle": [
+                900.0,
+                69.0,
+                16.0,
+                16.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "mm %",
+          "words": [
+            {
+              "text": "mm",
+              "rectangle": [
+                815.0,
+                109.0,
+                28.0,
+                9.0
+              ]
+            },
+            {
+              "text": "%",
+              "rectangle": [
+                900.0,
+                104.0,
+                16.0,
+                16.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "90.00",
+          "words": [
+            {
+              "text": "90.00",
+              "rectangle": [
+                941.0,
+                109.0,
+                40.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "0",
+          "words": [
+            {
+              "text": "0",
+              "rectangle": [
+                13.0,
+                408.0,
+                29.0,
+                21.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "100.0",
+          "words": [
+            {
+              "text": "100.0",
+              "rectangle": [
+                1731.0,
+                710.0,
+                40.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10.0",
+          "words": [
+            {
+              "text": "10.0",
+              "rectangle": [
+                1735.0,
+                754.0,
+                31.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "15.0",
+          "words": [
+            {
+              "text": "15.0",
+              "rectangle": [
+                1798.0,
+                710.0,
+                31.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "15.0",
+          "words": [
+            {
+              "text": "15.0",
+              "rectangle": [
+                1798.0,
+                753.0,
+                31.0,
+                13.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "02",
+          "words": [
+            {
+              "text": "02",
+              "rectangle": [
+                62.0,
+                1096.0,
+                16.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "03",
+          "words": [
+            {
+              "text": "03",
+              "rectangle": [
+                106.0,
+                1096.0,
+                16.0,
+                11.0
+              ]
+            }
+          ]
+        },
+        {
+          "text": "04",
+          "words": [
+            {
+              "text": "04",
+              "rectangle": [
+                150.0,
+                1096.0,
+                17.0,
+                11.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "native_current": true,
+  "native_sha256": "727c293f9af843e505992274b9bf064abd1cc3f9e2838f82c84838c55cabcd98",
+  "machine_validated": false,
+  "physical_fit_verified": false,
+  "process_parameters": "test readback only - not validated for any material or device"
+}

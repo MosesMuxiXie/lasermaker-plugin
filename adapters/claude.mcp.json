@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "lasermaker": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/runtime/lasermaker-agent.exe",
+      "args": ["mcp"],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}"
+    }
+  }
+}

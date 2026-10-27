@@ -1,0 +1,13 @@
+{
+  "name": "lasermaker-agent",
+  "version": "0.1.2",
+  "description": "Precise, resumable Windows LaserMaker design operations.",
+  "skills": "./skills/",
+  "mcpServers": {
+    "lasermaker": {
+      "command": "./runtime/lasermaker-agent.exe",
+      "args": ["mcp"],
+      "cwd": "./"
+    }
+  }
+}

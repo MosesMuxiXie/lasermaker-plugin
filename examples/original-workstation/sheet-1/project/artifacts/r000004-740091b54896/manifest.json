@@ -1,0 +1,121 @@
+{
+  "project_id": "a1259e9580a2419685f35ef490d6b999",
+  "revision": 4,
+  "artifacts": {
+    "svg": "design.svg",
+    "dxf": "design.dxf",
+    "source": "design.json",
+    "preflight": "preflight.json",
+    "score": "stage-score.svg",
+    "engrave": "stage-engrave.svg",
+    "cut_inner": "stage-cut_inner.svg",
+    "cut_outer": "stage-cut_outer.svg",
+    "native": "design.lcpx"
+  },
+  "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+  "discretization_profile": "adaptive-chord-v2-exact-source-endpoints",
+  "native_current": true,
+  "native_evidence": {
+    "path": "native\\a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+    "sha256": "9d09172bcdb6bd591f75dbf4e60e51ced3b65f93de75ca2a48091bd1990ec825",
+    "revision": 4,
+    "design_digest": "d74e561e97b1628a33cbec6cd1f687688ba24cf9a459e9c3e14c61ff31f33b52",
+    "source_scope": {
+      "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+      "roles": [
+        "cut_inner",
+        "cut_outer",
+        "engrave"
+      ],
+      "complete": true,
+      "bounds_mm": [
+        6.0,
+        6.0,
+        594.0,
+        378.0
+      ]
+    },
+    "verification": {
+      "path": "examples/original-workstation/sheet-1/project/native/a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+      "sha256": "9d09172bcdb6bd591f75dbf4e60e51ced3b65f93de75ca2a48091bd1990ec825",
+      "reopen_verified": true,
+      "document_name": "a1259e9580a2419685f35ef490d6b999-original-workstation.lcpx",
+      "position_mm": [
+        473.0,
+        305.0
+      ],
+      "selection_size_mm": [
+        588.0,
+        372.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#0000ff",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "engrave"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          6.0,
+          6.0,
+          594.0,
+          378.0
+        ]
+      },
+      "layer_process_readbacks": {
+        "#000000": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "#0000ff": {
+          "mode": "engrave",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        }
+      }
+    }
+  },
+  "process_settings_verified": true,
+  "geometry_passed": true,
+  "manufacturing_ready": false,
+  "required_on_site": [
+    "machine/bed/controller",
+    "material thickness and slot fit",
+    "speed/power test",
+    "inner-before-outer execution"
+  ],
+  "process_order": [
+    "score/engrave",
+    "cut_inner",
+    "cut_outer"
+  ],
+  "sha256": {
+    "svg": "bf58c95d65196ce2c5c9945dcb486a33d1d1192bf1b68b367a51c03e7016d789",
+    "dxf": "73dd2b5ad04a714abc4573ef3270a53eec3bd8c48295f42bb9e44998eb4bd816",
+    "source": "130fb13353fdb4ef65a481b24a63f1a28f4f0f7037a7359fb956f3d902617e13",
+    "preflight": "97a173dc8ec0ce3cd18f5b5fd08e1a8b8c45d91779498cb3cbb31a5e1bfa90f6",
+    "score": "1de8d5ea066928dfefb8d9a916888fe81dc6850487ddb5ccb44e4c5f4f974830",
+    "engrave": "73e9ff64a36c74f82bbc39950a58b00bfa0a934ac3dbad87c077e0e2b03234eb",
+    "cut_inner": "bc1b357c0d8d4c9561c01cbe4f58fba394a8bd54ef9f6edcd0bb9f58ddbb5163",
+    "cut_outer": "3836ccfafe82ae542f091a2120dda86ac6e7f0ced5e8ee364397b33b4fa93ec0",
+    "native": "9d09172bcdb6bd591f75dbf4e60e51ced3b65f93de75ca2a48091bd1990ec825"
+  }
+}

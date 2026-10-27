@@ -1,0 +1,10 @@
+{
+  "name": "lasermaker-local",
+  "interface": {"displayName": "LaserMaker 本地插件"},
+  "plugins": [{
+    "name": "lasermaker-agent",
+    "source": {"source": "local", "path": "./"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lasermaker-agent",
+  "version": "0.1.2",
+  "description": "Precise, resumable design and local Windows LaserMaker automation.",
+  "license": "MIT",
+  "author": {"name": "LaserMaker Agent contributors"},
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "LaserMaker Agent",
+        "shortDescription": "精确设计与 Windows LaserMaker 操作",
+        "longDescription": "创建精确毫米图形、检查点和加工设计包，操作本机 LaserMaker 保存并重新打开工程核验。机器与材料参数需要现场试切。本插件不会发送或启动激光加工任务。"
+      },
+      "onboardingSkill": "./skills/lasermaker-workflow/SKILL.md"
+    }
+  }
+}

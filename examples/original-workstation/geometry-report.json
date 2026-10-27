@@ -1,0 +1,152 @@
+{
+  "part_count": 54,
+  "sheet_count": 4,
+  "object_count": 987,
+  "bounds_mm": [
+    -135.0,
+    -105.0,
+    0.0,
+    135.0,
+    105.0,
+    280.0
+  ],
+  "sheets": [
+    {
+      "geometry_passed": true,
+      "manufacturing_ready": false,
+      "bounds_mm": [
+        6.0,
+        6.0,
+        594.0,
+        378.0
+      ],
+      "object_count": 156,
+      "part_count": 11,
+      "errors": [],
+      "warnings": [
+        {
+          "code": "KERF_UNMEASURED"
+        },
+        {
+          "code": "PHYSICAL_FIT_UNVERIFIED"
+        },
+        {
+          "code": "MACHINE_AND_PROCESS_REQUIRE_ON_SITE_VALIDATION"
+        }
+      ],
+      "geometry_tolerance_mm": 0.01
+    },
+    {
+      "geometry_passed": true,
+      "manufacturing_ready": false,
+      "bounds_mm": [
+        6.0,
+        6.0,
+        577.0,
+        394.0
+      ],
+      "object_count": 213,
+      "part_count": 9,
+      "errors": [],
+      "warnings": [
+        {
+          "code": "KERF_UNMEASURED"
+        },
+        {
+          "code": "PHYSICAL_FIT_UNVERIFIED"
+        },
+        {
+          "code": "MACHINE_AND_PROCESS_REQUIRE_ON_SITE_VALIDATION"
+        }
+      ],
+      "geometry_tolerance_mm": 0.01
+    },
+    {
+      "geometry_passed": true,
+      "manufacturing_ready": false,
+      "bounds_mm": [
+        6.0,
+        6.0,
+        580.0,
+        392.0
+      ],
+      "object_count": 102,
+      "part_count": 13,
+      "errors": [],
+      "warnings": [
+        {
+          "code": "KERF_UNMEASURED"
+        },
+        {
+          "code": "PHYSICAL_FIT_UNVERIFIED"
+        },
+        {
+          "code": "MACHINE_AND_PROCESS_REQUIRE_ON_SITE_VALIDATION"
+        }
+      ],
+      "geometry_tolerance_mm": 0.01
+    },
+    {
+      "geometry_passed": true,
+      "manufacturing_ready": false,
+      "bounds_mm": [
+        6.0,
+        6.0,
+        576.0,
+        336.0
+      ],
+      "object_count": 516,
+      "part_count": 21,
+      "errors": [],
+      "warnings": [
+        {
+          "code": "KERF_UNMEASURED"
+        },
+        {
+          "code": "PHYSICAL_FIT_UNVERIFIED"
+        },
+        {
+          "code": "MACHINE_AND_PROCESS_REQUIRE_ON_SITE_VALIDATION"
+        }
+      ],
+      "geometry_tolerance_mm": 0.01
+    }
+  ],
+  "fixtures": {
+    "geometry_passed": true,
+    "manufacturing_ready": false,
+    "bounds_mm": [
+      6.0,
+      6.0,
+      160.0,
+      160.0
+    ],
+    "object_count": 41,
+    "part_count": 4,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "KERF_UNMEASURED"
+      },
+      {
+        "code": "PHYSICAL_FIT_UNVERIFIED"
+      },
+      {
+        "code": "MACHINE_AND_PROCESS_REQUIRE_ON_SITE_VALIDATION"
+      }
+    ],
+    "geometry_tolerance_mm": 0.01
+  },
+  "blueprint_sha256": "c0ea854546442277cfcd20c3dc186a91d1d43be19fbe6c8ef5c9c59f1a909dba",
+  "sheet_design_sha256": [
+    "d74e561e97b1628a33cbec6cd1f687688ba24cf9a459e9c3e14c61ff31f33b52",
+    "98444f6943cf746106d20cea8089fac9c496348e4eb0342f78544f15bb7a1cd2",
+    "5371f068f2b7c2a5fb4d88b641893b50dd2a7cf9914175cb782d14656768bb94",
+    "683e041c2b051db9a370cc763aae9f4dbe9d5679b3647355b9873e4916ec0411"
+  ],
+  "triangles": 70476,
+  "geometry_passed": true,
+  "machine_validated": false,
+  "physical_fit_verified": false,
+  "two_hour_soak": "deferred by user"
+}

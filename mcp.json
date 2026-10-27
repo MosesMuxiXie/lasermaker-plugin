@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "lasermaker": {
+      "type": "stdio",
+      "command": "./runtime/lasermaker-agent.exe",
+      "args": ["mcp"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

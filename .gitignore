@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+*.spec
+!lasermaker-agent.spec
+work/
+runtime/
+releases/
+/tests/fixtures/cockpit-geometry.json

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lasermaker-agent"
+version = "0.1.2"
+description = "Precise, resumable LaserMaker design and Windows automation over MCP"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = [
+  "mcp>=1.20,<2", "pydantic>=2.10,<3", "shapely>=2.1,<3",
+  "svgpathtools>=1.7,<2", "ezdxf>=1.4,<2", "fonttools>=4.60,<5",
+  "uharfbuzz>=0.50,<1", "Pillow>=12.1,<13", "psutil>=7,<8",
+  "pywinauto==0.6.9; sys_platform == 'win32'",
+  "winrt-Windows.Media.Ocr; sys_platform == 'win32'",
+  "winrt-Windows.Graphics.Imaging; sys_platform == 'win32'",
+  "winrt-Windows.Storage.Streams; sys_platform == 'win32'",
+  "windows-capture==2.0.1; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2", "pyinstaller>=6.16,<7", "ruff>=0.14,<1"]
+design = ["reportlab>=4,<5", "numpy>=2,<3"]
+
+[project.scripts]
+lasermaker-agent = "lasermaker_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 110

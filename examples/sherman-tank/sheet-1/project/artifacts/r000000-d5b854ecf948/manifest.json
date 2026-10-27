@@ -1,0 +1,121 @@
+{
+  "project_id": "285655059f7e497183f2de62466e8f3b",
+  "revision": 0,
+  "artifacts": {
+    "svg": "design.svg",
+    "dxf": "design.dxf",
+    "source": "design.json",
+    "preflight": "preflight.json",
+    "score": "stage-score.svg",
+    "engrave": "stage-engrave.svg",
+    "cut_inner": "stage-cut_inner.svg",
+    "cut_outer": "stage-cut_outer.svg",
+    "native": "design.lcpx"
+  },
+  "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+  "native_current": true,
+  "native_evidence": {
+    "path": "native\\285655059f7e497183f2de62466e8f3b-product-v2.lcpx",
+    "sha256": "7716e2cc8ce43b2b646ac758e11d9abec6a8fa7849dc95d984f0b78c5b360970",
+    "revision": 0,
+    "design_digest": "bb1160860252812ff2368f2cb7b2c288fd196bf619b8ed4740af707c660979d8",
+    "source_scope": {
+      "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+      "roles": [
+        "cut_inner",
+        "cut_outer",
+        "score"
+      ],
+      "complete": true,
+      "bounds_mm": [
+        5.0,
+        5.0,
+        234.0,
+        229.0
+      ]
+    },
+    "verification": {
+      "path": "examples/sherman-tank/sheet-1/project/native/285655059f7e497183f2de62466e8f3b-product-v2.lcpx",
+      "sha256": "7716e2cc8ce43b2b646ac758e11d9abec6a8fa7849dc95d984f0b78c5b360970",
+      "reopen_verified": true,
+      "document_name": "285655059f7e497183f2de62466e8f3b-product-v2.lcpx",
+      "position_mm": [
+        293.5,
+        231.0
+      ],
+      "selection_size_mm": [
+        229.0,
+        224.0
+      ],
+      "position_anchor": "application_current_anchor",
+      "layers": [
+        {
+          "color": "#ff0000",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0
+        },
+        {
+          "color": "#000000",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0
+        }
+      ],
+      "process_order_verified": false,
+      "simulation_verified": false,
+      "source_scope": {
+        "export_profile": "lasermaker2172-svg-mm-v2-complete-curved-closure",
+        "roles": [
+          "cut_inner",
+          "cut_outer",
+          "score"
+        ],
+        "complete": true,
+        "bounds_mm": [
+          5.0,
+          5.0,
+          234.0,
+          229.0
+        ]
+      },
+      "layer_process_readbacks": {
+        "#ff0000": {
+          "mode": "score",
+          "speed_mm_s": 100.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        },
+        "#000000": {
+          "mode": "cut",
+          "speed_mm_s": 10.0,
+          "power_max_percent": 15.0,
+          "power_min_percent": 13.0
+        }
+      }
+    }
+  },
+  "process_settings_verified": true,
+  "geometry_passed": true,
+  "manufacturing_ready": false,
+  "required_on_site": [
+    "machine/bed/controller",
+    "material thickness and slot fit",
+    "speed/power test",
+    "inner-before-outer execution"
+  ],
+  "process_order": [
+    "score/engrave",
+    "cut_inner",
+    "cut_outer"
+  ],
+  "sha256": {
+    "svg": "5bca7adb0b4e602ac2c6a9801802fe4f46163c75a3d7f0782be5a1947c154f99",
+    "dxf": "182b16b6334dbfd84fdd7d4f7f65ab3290d71aabd58c0fce9a0d0b99e0b425f8",
+    "source": "a654494118f65e8a641ae4f60b708c4e6e521e582beddd74dbaf831bc2c04b9a",
+    "preflight": "bdc3ff673c0623be742ed07f3206b9c303a79d8e1511cbfcae61395a75e47027",
+    "score": "15ff706bf081b1fc0a5fd45b055521005445119b837297ad32e4951b3a36f003",
+    "engrave": "ef28e0847a8afbf3e58b6e677fb1196f8239a0e1511d59c7dd40dbe0f6954dc8",
+    "cut_inner": "cd1a195c40413ac05557c676a727b8317333628d403425de040ac65249bff1d5",
+    "cut_outer": "28ee06d67e4fe56dd1e7a63d10da8dba3d6fcc5739a373744474ee3f53bf00d1",
+    "native": "7716e2cc8ce43b2b646ac758e11d9abec6a8fa7849dc95d984f0b78c5b360970"
+  }
+}
