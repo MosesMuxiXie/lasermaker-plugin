@@ -5,11 +5,13 @@
 On **Windows x64**, install Node.js 20+ (including npm/npx), Git, and your preferred agent CLI. Then choose a host:
 
 ```powershell
-npx --yes github:MosesMuxiXie/lasermaker-plugin install codex
+npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin install codex
 # or: install claude / install deepseek / install kimi
 ```
 
 No npm login, system Python, administrator access, manual ZIP extraction, or hand-written executable path is required. The package is fetched directly from this public GitHub repository; it is **not an npm-registry package**. The download is about 140 MB on the first installation. Repeated installation reuses the verified cache.
+
+npm 12 disables Git dependencies by default. `--allow-git=root` is an explicit opt-in for the requested package in this command; it does not change persistent npm settings or enable dependency lifecycle scripts. Omitting it on npm 12 produces `EALLOWGIT`. See the official [npm source policy](https://docs.npmjs.com/cli/v12/commands/npm-install/#allow-git).
 
 The installer/integration package is **0.1.3**. It uses the unchanged, tested **0.1.2 Windows runtime**. The original release ZIP, executable, and the complete 905-file runtime tree are pinned by SHA-256. A cached install checks all runtime files before reuse. `doctor` therefore reports runtime version `0.1.2`.
 
@@ -25,9 +27,9 @@ Existing unrelated host configuration and project files are not overwritten. A r
 ## Useful commands
 
 ```powershell
-npx --yes github:MosesMuxiXie/lasermaker-plugin doctor
-npx --yes github:MosesMuxiXie/lasermaker-plugin path
-npx --yes github:MosesMuxiXie/lasermaker-plugin config
+npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin doctor
+npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin path
+npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin config
 ```
 
 `config` prints a ready-to-paste generic stdio MCP configuration with the exact installed executable path. `mcp` forwards stdio to the verified runtime; progress messages are sent only to stderr. Install once before configuring a host to avoid its startup timeout during the initial download.
@@ -37,7 +39,7 @@ Default location: `%LOCALAPPDATA%/LaserMakerAgent/versions/0.1.3/lasermaker-agen
 Prefer a global command?
 
 ```powershell
-npm install -g github:MosesMuxiXie/lasermaker-plugin
+npm install -g --allow-git=root github:MosesMuxiXie/lasermaker-plugin
 lasermaker-plugin install codex
 ```
 

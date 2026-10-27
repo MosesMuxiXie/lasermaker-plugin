@@ -9,18 +9,20 @@
 需要 Windows x64、Node.js 20+（含 npm/npx）、Git，以及已安装的 Agent CLI：
 
 ```powershell
-npx --yes github:MosesMuxiXie/lasermaker-plugin install codex
+npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin install codex
 ```
 
 将 `codex` 换成 `claude`、`deepseek` 或 `kimi`。安装器会自动下载便携运行时、核对 SHA-256、解压并调用宿主的安装命令；无需 npm 登录、系统 Python、管理员权限或手写 EXE 路径。首次下载约 140 MB，再次运行复用已校验缓存。
+
+`--allow-git=root` 按 npm 12 的要求，仅为本次命令显式许可这个 GitHub 包，不修改全局 npm 配置。
 
 Codex／Claude 自动接入；DeepSeek 默认使用 `laser` profile；Kimi 需要将安装器打印的一条 `/plugins install ...` 命令粘贴到会话内，再 `/reload`。
 
 这是直接从公开 GitHub 仓库运行的 npm 包，不是已发布到 npm registry 的同名包。安装器／宿主集成包为 **0.1.3**，继续使用未改动、已核验的 **0.1.2 Windows 核心**，因此 `doctor` 报告 0.1.2。
 
 ```powershell
-npx --yes github:MosesMuxiXie/lasermaker-plugin doctor
-npx --yes github:MosesMuxiXie/lasermaker-plugin config
+npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin doctor
+npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin config
 ```
 
 `config` 输出可直接粘贴的通用 MCP 配置。默认安装到 `%LOCALAPPDATA%/LaserMakerAgent/versions/0.1.3/lasermaker-agent`；可用 `--dir 'D:/Tools/LaserMaker'` 指定其他安装根目录，后续命令也使用同一选项。已有项目、未知目录和被改动的缓存均不会被覆盖。
@@ -28,7 +30,7 @@ npx --yes github:MosesMuxiXie/lasermaker-plugin config
 也可以全局安装：
 
 ```powershell
-npm install -g github:MosesMuxiXie/lasermaker-plugin
+npm install -g --allow-git=root github:MosesMuxiXie/lasermaker-plugin
 lasermaker-plugin install codex
 ```
 

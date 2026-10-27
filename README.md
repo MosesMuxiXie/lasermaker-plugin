@@ -9,10 +9,12 @@ Precise laser-cutting and engraving design for **Codex, Claude Code, Kimi Code, 
 On **Windows x64**, with **Node.js 20+**, **Git**, and your agent CLI installed:
 
 ```powershell
-npx --yes github:MosesMuxiXie/lasermaker-plugin install codex
+npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin install codex
 ```
 
 Replace `codex` with `claude`, `deepseek`, or `kimi`. Codex and Claude use their native plugin installers; DeepSeek uses the `laser` profile. Kimi prints one command to paste into its conversation, followed by `/reload`.
+
+`--allow-git=root` explicitly permits this GitHub package for the current command, as required by npm 12. It does not change your global npm configuration.
 
 The installer downloads the verified portable runtime, checks its SHA-256, installs it in your user profile, and connects the selected host. **No npm account, system Python, administrator access, manual extraction, or executable-path editing is required.** The first download is about 140 MB; later runs use the verified cache.
 
@@ -20,16 +22,16 @@ This is a **GitHub-backed npm package**, not a package published to the npm regi
 
 ```powershell
 # Check the installation
-npx --yes github:MosesMuxiXie/lasermaker-plugin doctor
+npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin doctor
 
 # Print a ready-to-paste config for another stdio MCP host
-npx --yes github:MosesMuxiXie/lasermaker-plugin config
+npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin config
 ```
 
 Prefer a permanent command?
 
 ```powershell
-npm install -g github:MosesMuxiXie/lasermaker-plugin
+npm install -g --allow-git=root github:MosesMuxiXie/lasermaker-plugin
 lasermaker-plugin install codex
 ```
 
