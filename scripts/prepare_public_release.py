@@ -15,7 +15,7 @@ from lasermaker_agent.store import json_bytes
 from lasermaker_agent.workstation import load_frozen_spec
 
 EXAMPLES={'original-workstation','sherman-tank','engraving-modes'}
-DOCS={'安装.md','使用教程.md','接口与恢复.md','资料来源.md','runtime-licenses.json','验证报告.md','验证报告.json'}
+DOCS={'安装.md','installation.md','使用教程.md','接口与恢复.md','资料来源.md','runtime-licenses.json','验证报告.md','验证报告.json'}
 TEXT_SUFFIXES={'.json','.md','.py','.mjs','.js','.txt','.toml','.yml','.yaml','.csv','.svg','.html','.scad','.ps1'}
 SECRET=re.compile(r'(?:gh[pousr]_[A-Za-z0-9]{30,}|sk-[A-Za-z0-9_-]{32,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 PRIVATE_PATH=re.compile(r'(?i)[A-Z]:[\\/](?:Users[\\/][^\\/\s]+|OneDrive[\\/])')

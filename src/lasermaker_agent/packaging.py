@@ -6,7 +6,7 @@ from . import __version__
 
 PLUGIN_CONTENT = ("plugin.json", "mcp.json", ".agents", ".claude-plugin", "kimi.plugin.json",
                   "package.json", "adapters", "skills", "docs", "examples", "README.md", "LICENSE",
-                  "THIRD_PARTY_NOTICES.md", "licenses", "PUBLICATION.json")
+                  "THIRD_PARTY_NOTICES.md", "licenses", "PUBLICATION.json", "README.zh-CN.md", "bin", "installer")
 SOURCE_CONTENT = (*PLUGIN_CONTENT, "src", "tests", "scripts", "pyproject.toml", "requirements.lock.txt", "lasermaker-agent.spec", ".gitignore", ".gitattributes")
 
 

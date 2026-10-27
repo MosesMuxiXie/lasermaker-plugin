@@ -1,0 +1,5 @@
+{
+  "name": "lasermaker-local",
+  "owner": {"name": "MosesMuxiXie"},
+  "plugins": [{"name": "lasermaker-agent", "source": "./", "description": "Precise, resumable Windows LaserMaker design operations."}]
+}

@@ -1,6 +1,6 @@
 {
   "name": "lasermaker-agent",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Precise, resumable Windows LaserMaker design operations.",
   "license": "MIT",
   "skills": "./skills/",
