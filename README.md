@@ -1,10 +1,25 @@
+<div align="center">
+
 # LaserMaker Plugin
 
-[简体中文](README.zh-CN.md)
+**From a dimensioned idea to a verified LaserMaker project.**
+
+Precise geometry · Windows automation · Resumable work across agents
+
+[![Windows x64](https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square)](#quick-start)
+[![Installer 0.1.3](https://img.shields.io/badge/Installer-0.1.3-2563EB?style=flat-square)](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/tag/v0.1.3)
+[![MCP tools 17](https://img.shields.io/badge/MCP_tools-17-0D9488?style=flat-square)](docs/接口与恢复.md)
+[![License MIT](https://img.shields.io/badge/License-MIT-64748B?style=flat-square)](LICENSE)
+
+[简体中文](README.zh-CN.md) · [Quick start](#quick-start) · [Agent guides](#choose-your-agent) · [Examples](#try-a-complete-product) · [Downloads](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/latest)
+
+</div>
+
+---
 
 Precise laser-cutting and engraving design for **Codex, Claude Code, Kimi Code, and DeepSeek Harness**, with a shared MCP server and Windows LaserMaker automation.
 
-## Install with one command
+## Quick start
 
 On **Windows x64**, with **Node.js 20+**, **Git**, and your agent CLI installed:
 
@@ -28,12 +43,15 @@ npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin doctor
 npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin config
 ```
 
-Prefer a permanent command?
+<details>
+<summary><strong>Prefer a permanent command?</strong></summary>
 
 ```powershell
 npm install -g --allow-git=root github:MosesMuxiXie/lasermaker-plugin
 lasermaker-plugin install codex
 ```
+
+</details>
 
 See the [installation guide](docs/installation.md) for custom directories, other profiles, updating, and troubleshooting.
 
@@ -42,6 +60,15 @@ See the [installation guide](docs/installation.md) for custom directories, other
 Download **`lasermaker-agent-0.1.3-plugin.zip`** from [Releases](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/latest), verify it with `SHA256SUMS.txt`, and extract it. The ZIP includes Python. Register the extracted plugin root using the short [offline installation steps](docs/installation.md#without-nodejs-offline-zip).
 
 GitHub's automatic source archive contains source code, not the portable runtime. The small installer `.tgz` downloads the runtime on demand.
+
+## Choose your agent
+
+Each guide covers prerequisites, installation, tool checks, a complete product prompt, native save/reopen verification, cross-session recovery, offline setup, troubleshooting, and removal.
+
+- **[Codex →](adapters/codex/README.md)** — Native local marketplace, CLI checks, local Desktop notes, and a generic MCP fallback.
+- **[Claude Code →](adapters/claude/README.md)** — User-scoped setup, `/mcp` checks, the packaged workflow skill, and temporary local loading.
+- **[Kimi Code →](adapters/kimi/README.md)** — In-session installation, `/reload`, MCP enablement, and managed-copy diagnostics.
+- **[DeepSeek Harness →](adapters/deepseek/README.md)** — Profile selection, native Cordis bundle setup, service dependencies, and MCP dispatch.
 
 ## What it does
 
@@ -68,15 +95,30 @@ A useful request for your agent:
 
 ## Validation and limits
 
+**Installer release:** 13 Node tests passed; 93 Python tests passed, with 2 opt-in live tests skipped. Real GitHub-backed npx setup, global npm installation, Codex/Claude setup, cache reuse, and two installed MCP restarts with 17 tools were checked. See the [release verification files](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/tag/v0.1.3).
+
+<details>
+<summary><strong>Core validation and host compatibility details</strong></summary>
+
 The pinned 0.1.2 core passed **91 Python checks, with 2 opt-in live tests skipped**. Five workstation native projects completed actual import, dimension checks, process setting, save, close, and exact-path reopen. The MCP object-limit test reached 20,000 objects and rejected object 20,001 without mutation.
 
 Previously tested hosts: Codex CLI 0.164.0, Claude Code 2.1.310, Kimi Code 2.3.2, and DeepSeek Harness 0.2.1-rc.2 / Cordis 4.0.5. Native loading and tool discovery were checked for all four; Codex/DeepSeek native dispatch and Claude/Kimi host-resolved stdio calls were checked separately. Model-account conversations remain unverified.
 
+</details>
+
 The 120-minute continuous workload test is deferred. Physical fit, kerf, hardware, load/tipping, machine bed/controller, and actual toolpaths/processing remain unverified. `manufacturing_ready` stays `false`. Geometry tolerance (0.01 mm) and GUI readback tolerance (0.05 mm) are not machine-accuracy claims. Example speed/power values are readback tests, not production settings.
 
-[Core validation report](docs/验证报告.md) · [API and recovery](docs/接口与恢复.md) · [LaserMaker tutorial](docs/使用教程.md) · [Installation](docs/installation.md)
+## Documentation
+
+- **Get connected:** [Installation and recovery](docs/installation.md) · [Chinese installation notes](docs/安装.md)
+- **Design and operate:** [LaserMaker tutorial](docs/使用教程.md) · [API, revisions, and recovery](docs/接口与恢复.md)
+- **Inspect the evidence:** [Core validation](docs/验证报告.md) · [Research sources](docs/资料来源.md)
+- **Agent-specific help:** [Codex](adapters/codex/README.md) · [Claude Code](adapters/claude/README.md) · [Kimi Code](adapters/kimi/README.md) · [DeepSeek Harness](adapters/deepseek/README.md)
 
 ## Development
+
+<details>
+<summary><strong>Tests and rebuilding</strong></summary>
 
 ```powershell
 npm test
@@ -86,6 +128,8 @@ py -3.12 -m venv .venv
 ```
 
 The Node installer has no third-party dependencies or postinstall script. DeepSeek peer dependencies are supplied by that host and are optional for the downloader. Python development requires 3.12 x64; font tests use Windows Arial and Microsoft YaHei, which are not redistributed. `scripts/build.ps1` builds the Python runtime; the installer pins the separately verified core release.
+
+</details>
 
 ## License
 

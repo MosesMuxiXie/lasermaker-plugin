@@ -1,5 +1,7 @@
 # Installation
 
+For a complete walkthrough of your host, choose [Codex](../adapters/codex/README.md), [Claude Code](../adapters/claude/README.md), [Kimi Code](../adapters/kimi/README.md), or [DeepSeek Harness](../adapters/deepseek/README.md). These guides include product prompts, native verification, resuming work, and host-specific troubleshooting.
+
 ## Recommended: one command
 
 On **Windows x64**, install Node.js 20+ (including npm/npx), Git, and your preferred agent CLI. Then choose a host:

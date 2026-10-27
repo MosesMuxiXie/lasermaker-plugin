@@ -2,6 +2,10 @@
 
 [English](README.md)
 
+**从尺寸设计到原生工程核验，四种 Agent 共用同一套绘图与续作流程。**
+
+[安装](#一条命令安装) · [各 Agent 教程](#选择你的-agent) · [产品样例](#功能与样例) · [下载](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/latest)
+
 为 Codex、Claude Code、Kimi Code、DeepSeek Harness 提供精确毫米绘图、MCP 和 Windows LaserMaker 自动操作。
 
 ## 一条命令安装
@@ -35,6 +39,15 @@ lasermaker-plugin install codex
 ```
 
 [完整安装说明（英文）](docs/installation.md) · [原有中文安装说明](docs/安装.md)
+
+## 选择你的 Agent
+
+以下详细 README 使用英文，覆盖安装、工具检查、完整产品示例、原生保存重开、跨会话续作、离线接入、故障排查与卸载：
+
+- **[Codex 教程 →](adapters/codex/README.md)**：本地市场、CLI 检查、本地 Desktop 注意事项和 MCP 备选接入。
+- **[Claude Code 教程 →](adapters/claude/README.md)**：用户级安装、`/mcp` 检查、共享 Skill 和临时加载。
+- **[Kimi Code 教程 →](adapters/kimi/README.md)**：会话内安装、`/reload`、MCP 启用和托管副本检查。
+- **[DeepSeek Harness 教程 →](adapters/deepseek/README.md)**：profile 选择、原生 bundle、依赖服务和工具调用。
 
 ## 不使用 Node.js
 
