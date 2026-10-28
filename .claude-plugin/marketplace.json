@@ -1,5 +1,6 @@
 {
   "name": "lasermaker-local",
   "owner": {"name": "MosesMuxiXie"},
+  "description": "Local marketplace for precise millimetre LaserMaker design and Windows automation.",
   "plugins": [{"name": "lasermaker-agent", "source": "./", "description": "Precise, resumable Windows LaserMaker design operations."}]
 }

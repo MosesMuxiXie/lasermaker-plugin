@@ -15,13 +15,13 @@ No npm login, system Python, administrator access, manual ZIP extraction, or han
 
 npm 12 disables Git dependencies by default. `--allow-git=root` is an explicit opt-in for the requested package in this command; it does not change persistent npm settings or enable dependency lifecycle scripts. Omitting it on npm 12 produces `EALLOWGIT`. See the official [npm source policy](https://docs.npmjs.com/cli/v12/commands/npm-install/#allow-git).
 
-The installer/integration package is **0.1.3**. It uses the unchanged, tested **0.1.2 Windows runtime**. The original release ZIP, executable, and the complete 905-file runtime tree are pinned by SHA-256. A cached install checks all runtime files before reuse. `doctor` therefore reports runtime version `0.1.2`.
+The installer/integration package is **0.1.4**. It uses the unchanged, tested **0.1.2 Windows runtime**. The original release ZIP, executable, and the complete 905-file runtime tree are pinned by SHA-256. A cached install checks all runtime files before reuse. `doctor` therefore reports runtime version `0.1.2`.
 
 ### What each host command does
 
 - **Codex:** registers the local marketplace and installs `lasermaker-agent@lasermaker-local`. Restart Codex or open a new session.
 - **Claude Code:** uses the native `claude plugin install --marketplace ... --scope user` command. Restart or open a new session, then inspect `/mcp`.
-- **DeepSeek Harness:** installs the native bundle into the `laser` profile. Use `--profile NAME` to select another profile; the profile must already provide the Harness tool/skill/MCP services.
+- **DeepSeek Harness:** installs the native bundle into the `laser` profile. Use `--profile NAME` to select another profile; the profile must already provide the Harness tool/skill/MCP services. The 0.1.4 integration declares `engines.dsh` as `>=0.2.1-rc.2 <0.3.0`; installation was checked on 0.2.1-rc.3.
 - **Kimi Code:** installs the files, then prints `/plugins install <exact path>` and `/reload` for the Kimi conversation. This interactive step is required; it is not reported as automatic plugin activation.
 
 Existing unrelated host configuration and project files are not overwritten. A running installation, unknown destination, or changed cached executable produces a clear error. Choose a fresh `--dir` if a prior installation was modified; files are preserved.
@@ -36,7 +36,7 @@ npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin config
 
 `config` prints a ready-to-paste generic stdio MCP configuration with the exact installed executable path. `mcp` forwards stdio to the verified runtime; progress messages are sent only to stderr. Install once before configuring a host to avoid its startup timeout during the initial download.
 
-Default location: `%LOCALAPPDATA%/LaserMakerAgent/versions/0.1.3/lasermaker-agent`. Override the installation base with `--dir 'D:/Tools/LaserMaker'` on any command. Use the same `--dir` for later commands.
+Default location: `%LOCALAPPDATA%/LaserMakerAgent/versions/0.1.4/lasermaker-agent`. Override the installation base with `--dir 'D:/Tools/LaserMaker'` on any command. Use the same `--dir` for later commands.
 
 Prefer a global command?
 
@@ -49,7 +49,7 @@ The DeepSeek peer packages are optional for the downloader; they are supplied by
 
 ## Without Node.js: offline ZIP
 
-Download `lasermaker-agent-0.1.3-plugin.zip` from [Releases](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/latest), verify it against `SHA256SUMS.txt`, and extract it into a fixed directory. The directory containing `plugin.json` is the plugin root.
+Download `lasermaker-agent-0.1.4-plugin.zip` from [Releases](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/latest), verify it against `SHA256SUMS.txt`, and extract it into a fixed directory. The directory containing `plugin.json` is the plugin root.
 
 For Codex, run these two commands with that root:
 

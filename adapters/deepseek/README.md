@@ -7,13 +7,13 @@ This adapter is a native Cordis bundle. It loads the shared skills and official 
 ## 1. Requirements and profile selection
 
 - Windows x64, Node.js 20+ with npm/npx, Git, and a working `dsh` CLI.
-- Tested baseline: **DeepSeek Harness 0.2.1-rc.2 / Cordis 4.0.5**. Check `dsh --version` and `dsh plugin --help`.
+- Tested baseline: **DeepSeek Harness 0.2.1-rc.2 / Cordis 4.0.5**; the 0.1.4 integration also installs on **DeepSeek Harness 0.2.1-rc.3**. Check `dsh --version` and `dsh plugin --help`.
 - A profile supplying the Harness `tools` and `skills` services, compatible MCP/skill peer packages, and the usual model/system-prompt services for conversations.
 - For GUI operations: LaserMaker **2.1.7.2** at `C:/Program Files/LaserMaker2/Bin/LaserMaker.exe`, with an unlocked local desktop.
 
 The installer defaults to a profile named **`laser`**. If you normally use another profile, select that profile explicitly. Initializing a profile or adding a package does not by itself provide all the services needed for chat and tool dispatch. This installer does not configure model accounts or build a complete Harness profile.
 
-Integration version: **0.1.3**; verified Windows core: **0.1.2**. The peer versions are declared in [package.json](../../package.json); resolve them in the Harness environment when using this adapter. They are optional for the standalone Node downloader.
+Integration version: **0.1.4**; verified Windows core: **0.1.2**. The peer versions are declared in [package.json](../../package.json); resolve them in the Harness environment when using this adapter. They are optional for the standalone Node downloader.
 
 ## 2. Install into the intended profile
 
@@ -138,6 +138,6 @@ Use your actual profile name, restart that profile as needed, and keep product p
 
 ## Verification and references
 
-The core baseline checked native DeepSeek bundle loading, 17-tool discovery, and actual dispatch without a model-account conversation. The 0.1.3 installer tests cover the new profile/add argument construction; the new installer shortcut is not claimed as a separately completed DeepSeek model end-to-end run. Physical processing remains unverified.
+The core baseline checked native DeepSeek bundle loading, 17-tool discovery, and actual dispatch without a model-account conversation. The 0.1.3 installer tests cover the new profile/add argument construction; the new installer shortcut is not claimed as a separately completed DeepSeek model end-to-end run. The 0.1.4 integration widened `engines.dsh` to `>=0.2.1-rc.2 <0.3.0`; a 0.2.1-rc.3 profile installed the bundle and composed its `lasermaker-agent` entry, while tool dispatch remains verified against the 0.2.1-rc.2 baseline. Physical processing remains unverified.
 
 See the official [Harness repository](https://github.com/deepseek-ai/deepseek-harness), [MCP client](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/mcp/mcp-client/README.md), and [profile plugin manager](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/boot/plugin-manager/README.md). CLI forwarding syntax was checked with the installed 0.2.1-rc.2 help. Also see [core validation](../../docs/验证报告.md) and the [workflow skill](../../skills/lasermaker-workflow/SKILL.md).

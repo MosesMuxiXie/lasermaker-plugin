@@ -10,7 +10,7 @@ Kimi Code loads the native `kimi.plugin.json`, shared workflow skill, and local 
 - Kimi Code with the `/plugins` interface and your normal model account. Tested baseline: **2.3.2**. Check your CLI version before following this guide.
 - For GUI operations: LaserMaker **2.1.7.2** at `C:/Program Files/LaserMaker2/Bin/LaserMaker.exe`, with an unlocked local desktop.
 
-This guide targets the `kimi.plugin.json` / `/plugins` interface. If your build exposes a different plugin format or only legacy commands, compare it with the supported baseline and its own documentation. Integration version: **0.1.3**; pinned Windows core: **0.1.2**. Setup does not supply a model account.
+This guide targets the `kimi.plugin.json` / `/plugins` interface. If your build exposes a different plugin format or only legacy commands, compare it with the supported baseline and its own documentation. Integration version: **0.1.4**; pinned Windows core: **0.1.2**. Setup does not supply a model account.
 
 ## 2. Download and install the files
 

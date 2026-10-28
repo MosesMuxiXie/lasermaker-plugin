@@ -7,7 +7,7 @@
 Precise geometry · Windows automation · Resumable work across agents
 
 [![Windows x64](https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square)](#quick-start)
-[![Installer 0.1.3](https://img.shields.io/badge/Installer-0.1.3-2563EB?style=flat-square)](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/tag/v0.1.3)
+[![Installer 0.1.4](https://img.shields.io/badge/Installer-0.1.4-2563EB?style=flat-square)](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/tag/v0.1.4)
 [![MCP tools 17](https://img.shields.io/badge/MCP_tools-17-0D9488?style=flat-square)](docs/接口与恢复.md)
 [![License MIT](https://img.shields.io/badge/License-MIT-64748B?style=flat-square)](LICENSE)
 
@@ -33,7 +33,7 @@ Replace `codex` with `claude`, `deepseek`, or `kimi`. Codex and Claude use their
 
 The installer downloads the verified portable runtime, checks its SHA-256, installs it in your user profile, and connects the selected host. **No npm account, system Python, administrator access, manual extraction, or executable-path editing is required.** The first download is about 140 MB; later runs use the verified cache.
 
-This is a **GitHub-backed npm package**, not a package published to the npm registry. The installer/integration package is **0.1.3**; its unchanged, tested Windows runtime is **0.1.2**. The runtime's `doctor` command reports `0.1.2`.
+This is a **GitHub-backed npm package**, not a package published to the npm registry. The installer/integration package is **0.1.4**; its unchanged, tested Windows runtime is **0.1.2**. The runtime's `doctor` command reports `0.1.2`.
 
 ```powershell
 # Check the installation
@@ -57,7 +57,7 @@ See the [installation guide](docs/installation.md) for custom directories, other
 
 ### Without Node.js
 
-Download **`lasermaker-agent-0.1.3-plugin.zip`** from [Releases](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/latest), verify it with `SHA256SUMS.txt`, and extract it. The ZIP includes Python. Register the extracted plugin root using the short [offline installation steps](docs/installation.md#without-nodejs-offline-zip).
+Download **`lasermaker-agent-0.1.4-plugin.zip`** from [Releases](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/latest), verify it with `SHA256SUMS.txt`, and extract it. The ZIP includes Python. Register the extracted plugin root using the short [offline installation steps](docs/installation.md#without-nodejs-offline-zip).
 
 GitHub's automatic source archive contains source code, not the portable runtime. The small installer `.tgz` downloads the runtime on demand.
 
@@ -95,14 +95,14 @@ A useful request for your agent:
 
 ## Validation and limits
 
-**Installer release:** 13 Node tests passed; 93 Python tests passed, with 2 opt-in live tests skipped. Real GitHub-backed npx setup, global npm installation, Codex/Claude setup, cache reuse, and two installed MCP restarts with 17 tools were checked. See the [release verification files](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/tag/v0.1.3).
+**Installer release:** 13 Node tests passed; 93 Python tests passed, with 2 opt-in live tests skipped. The 0.1.4 installer adds DeepSeek Harness 0.2.1-rc.3 installation compatibility; fresh GitHub-backed npx installation and a DeepSeek profile install were checked on 0.2.1-rc.3. The 0.1.3 verification also covered global npm installation, Codex/Claude setup, cache reuse, and two installed MCP restarts with 17 tools. See the [release verification files](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/tag/v0.1.4).
 
 <details>
 <summary><strong>Core validation and host compatibility details</strong></summary>
 
 The pinned 0.1.2 core passed **91 Python checks, with 2 opt-in live tests skipped**. Five workstation native projects completed actual import, dimension checks, process setting, save, close, and exact-path reopen. The MCP object-limit test reached 20,000 objects and rejected object 20,001 without mutation.
 
-Previously tested hosts: Codex CLI 0.164.0, Claude Code 2.1.310, Kimi Code 2.3.2, and DeepSeek Harness 0.2.1-rc.2 / Cordis 4.0.5. Native loading and tool discovery were checked for all four; Codex/DeepSeek native dispatch and Claude/Kimi host-resolved stdio calls were checked separately. Model-account conversations remain unverified.
+Previously tested hosts: Codex CLI 0.164.0, Claude Code 2.1.310, Kimi Code 2.3.2, and DeepSeek Harness 0.2.1-rc.2 and 0.2.1-rc.3, on Cordis 4.0.5. Native loading and tool discovery were checked for all four; Codex/DeepSeek native dispatch and Claude/Kimi host-resolved stdio calls were checked separately. Model-account conversations remain unverified.
 
 </details>
 

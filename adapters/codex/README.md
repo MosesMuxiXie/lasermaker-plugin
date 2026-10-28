@@ -11,7 +11,7 @@ Create precise laser-cutting geometry and operate local Windows LaserMaker throu
 - Your normal Codex sign-in for model conversations; setup does not configure a model account.
 - For GUI work: LaserMaker **2.1.7.2** at `C:/Program Files/LaserMaker2/Bin/LaserMaker.exe`, with the local desktop unlocked.
 
-The installer/integrations are **0.1.3**; the verified Windows core remains **0.1.2**. Geometry-only work can start without LaserMaker. GUI tools operate this Windows computer; use a local executor when working in Desktop.
+The installer/integrations are **0.1.4**; the verified Windows core remains **0.1.2**. Geometry-only work can start without LaserMaker. GUI tools operate this Windows computer; use a local executor when working in Desktop.
 
 ## 2. Install
 
@@ -129,4 +129,4 @@ If the marketplace is no longer used, remove its registration separately with `c
 
 Codex 0.164.0 native loading/dispatch passed in the core baseline. The 0.1.3 installer also passed a fresh-cache GitHub-backed npx download/install into a Unicode directory with isolated Codex configuration. Two installed MCP restarts each exposed 17 tools and called `doctor`. Model-account product conversations and physical cutting remain unverified.
 
-See [official OpenAI plugin packaging and local marketplaces](https://developers.openai.com/plugins/build/plugins), [release verification](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/tag/v0.1.3), the [workflow skill](../../skills/lasermaker-workflow/SKILL.md), and [API/recovery](../../docs/接口与恢复.md). Command syntax was also checked against the installed 0.164.0 CLI help.
+See [official OpenAI plugin packaging and local marketplaces](https://developers.openai.com/plugins/build/plugins), [release verification](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/tag/v0.1.4), the [workflow skill](../../skills/lasermaker-workflow/SKILL.md), and [API/recovery](../../docs/接口与恢复.md). Command syntax was also checked against the installed 0.164.0 CLI help.

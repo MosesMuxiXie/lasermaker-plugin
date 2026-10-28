@@ -10,7 +10,7 @@ Use the native Claude Code plugin to load the LaserMaker MCP server and design w
 - Claude Code and your normal model account/sign-in. Tested baseline: **2.1.310**. Check `claude --version` and `claude plugin install --help`.
 - For GUI work: LaserMaker **2.1.7.2** at `C:/Program Files/LaserMaker2/Bin/LaserMaker.exe`, on an unlocked local desktop.
 
-The shell `plugin install --marketplace` shortcut requires a sufficiently recent build; official documentation lists **2.1.292+**. The tested 2.1.310 build supports it. Setup does not configure model credentials. Integration version: **0.1.3**; verified Windows core: **0.1.2**.
+The shell `plugin install --marketplace` shortcut requires a sufficiently recent build; official documentation lists **2.1.292+**. The tested 2.1.310 build supports it. Setup does not configure model credentials. Integration version: **0.1.4**; verified Windows core: **0.1.2**.
 
 ## 2. Install in user scope
 
@@ -135,4 +135,4 @@ Keep product sources and native files in their separate project directory. Remov
 
 The 0.1.3 installer completed native Claude plugin installation in isolated user configuration. The core baseline checked host-resolved stdio discovery and calls. These checks are separate from model-account product conversations and physical processing, which remain unverified.
 
-See [official Claude Code installation](https://code.claude.com/docs/en/discover-plugins), [plugin overview](https://code.claude.com/docs/en/plugins), [release verification](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/tag/v0.1.3), and the [workflow skill](../../skills/lasermaker-workflow/SKILL.md). Commands were also checked against the installed 2.1.310 help.
+See [official Claude Code installation](https://code.claude.com/docs/en/discover-plugins), [plugin overview](https://code.claude.com/docs/en/plugins), [release verification](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/tag/v0.1.4), and the [workflow skill](../../skills/lasermaker-workflow/SKILL.md). Commands were also checked against the installed 2.1.310 help.

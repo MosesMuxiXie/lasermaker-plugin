@@ -1,8 +1,9 @@
 {
   "name": "lasermaker-agent",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Precise, resumable Windows LaserMaker design operations.",
   "license": "MIT",
+  "author": {"name": "LaserMaker Agent contributors"},
   "skills": "./skills/",
   "mcpServers": "./adapters/claude.mcp.json"
 }

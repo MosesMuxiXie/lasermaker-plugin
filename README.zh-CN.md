@@ -22,14 +22,14 @@ npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin install codex
 
 Codex／Claude 自动接入；DeepSeek 默认使用 `laser` profile；Kimi 需要将安装器打印的一条 `/plugins install ...` 命令粘贴到会话内，再 `/reload`。
 
-这是直接从公开 GitHub 仓库运行的 npm 包，不是已发布到 npm registry 的同名包。安装器／宿主集成包为 **0.1.3**，继续使用未改动、已核验的 **0.1.2 Windows 核心**，因此 `doctor` 报告 0.1.2。
+这是直接从公开 GitHub 仓库运行的 npm 包，不是已发布到 npm registry 的同名包。安装器／宿主集成包为 **0.1.4**，继续使用未改动、已核验的 **0.1.2 Windows 核心**，因此 `doctor` 报告 0.1.2。0.1.4 修复了 DeepSeek Harness 0.2.1-rc.3 的安装兼容性。
 
 ```powershell
 npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin doctor
 npx --yes --allow-git=root github:MosesMuxiXie/lasermaker-plugin config
 ```
 
-`config` 输出可直接粘贴的通用 MCP 配置。默认安装到 `%LOCALAPPDATA%/LaserMakerAgent/versions/0.1.3/lasermaker-agent`；可用 `--dir 'D:/Tools/LaserMaker'` 指定其他安装根目录，后续命令也使用同一选项。已有项目、未知目录和被改动的缓存均不会被覆盖。
+`config` 输出可直接粘贴的通用 MCP 配置。默认安装到 `%LOCALAPPDATA%/LaserMakerAgent/versions/0.1.4/lasermaker-agent`；可用 `--dir 'D:/Tools/LaserMaker'` 指定其他安装根目录，后续命令也使用同一选项。已有项目、未知目录和被改动的缓存均不会被覆盖。
 
 也可以全局安装：
 
@@ -51,7 +51,7 @@ lasermaker-plugin install codex
 
 ## 不使用 Node.js
 
-从 [Releases](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/latest) 下载 `lasermaker-agent-0.1.3-plugin.zip` 并按校验文件核对，解压后注册本地插件目录。完整 ZIP 自带 Python；GitHub 自动源码包和小型安装器 tgz 不包含 Python。离线安装命令见英文安装说明。
+从 [Releases](https://github.com/MosesMuxiXie/lasermaker-plugin/releases/latest) 下载 `lasermaker-agent-0.1.4-plugin.zip` 并按校验文件核对，解压后注册本地插件目录。完整 ZIP 自带 Python；GitHub 自动源码包和小型安装器 tgz 不包含 Python。离线安装命令见英文安装说明。
 
 ## 功能与样例
 
